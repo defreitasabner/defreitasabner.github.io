@@ -9,3 +9,12 @@
 body {
     background-color: var(--baby-powder);
 }
+
+.header__container {
+    display: flex;
+    background-color: var(--raisin-black);
+}
+
+.footer__container {
+    background-color: var(--raisin-black);
+}
