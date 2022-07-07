@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--raisin-black);
+    background: no-repeat url("../assets/img/header-background-texture.jpeg");
     padding-top: 0.5rem;
 }
 
