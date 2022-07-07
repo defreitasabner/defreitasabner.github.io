@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+
 :root {
     --baby-powder: #FAFDF6;
     --yellow-crayola: #EEEFA8;
     --minion-yellow: #EAE151;
     --titanium-yellow: #DDD92A;
     --raisin-black: #2D2A32;
+
+    font-family: 'Monda', sans-serif;
 }
 
 body {
@@ -16,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--raisin-black);
+    background: no-repeat url("../assets/img/header-background-texture.jpeg");
     padding-top: 0.5rem;
 }
 
