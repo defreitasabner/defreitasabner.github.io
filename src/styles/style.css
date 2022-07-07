@@ -1,0 +1,23 @@
+:root {
+    --baby-powder: #FAFDF6;
+    --yellow-crayola: #EEEFA8;
+    --minion-yellow: #EAE151;
+    --titanium-yellow: #DDD92A;
+    --raisin-black: #2D2A32;
+}
+
+body {
+    background-color: var(--baby-powder);
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--raisin-black);
+    padding: 1rem;
+}
+
+.footer__container {
+    background-color: var(--raisin-black);
+}
