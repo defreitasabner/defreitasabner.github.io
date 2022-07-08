@@ -67,14 +67,26 @@ body {
 .my-abilities__cards {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
 }
 
-.my-abilities__card {
-    width: 25%;
-    border: 1px solid;
-    box-shadow: 5px 5px 5px black;
+.card {
+    width: 80%;
+    border: 3px solid;
     padding: 1rem;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px black;
+    transition: box-shadow 0.5s;
+}
+
+.card__title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .footer__container {
