@@ -90,6 +90,11 @@ body {
     margin-bottom: 1rem;
 }
 
+.card__list li::before {
+    content: '\25A0';
+    margin-right: 0.5rem;
+}
+
 .footer__container {
     background-color: var(--raisin-black);
 }
