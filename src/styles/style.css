@@ -63,7 +63,7 @@ body {
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     color: var(--baby-powder);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .my-abilities__cards {
@@ -89,18 +89,28 @@ body {
     font-family: 'Press Start 2P', cursive;
     font-size: 1.2rem;
     font-weight: 700;
-    color: var(--baby-powder);
+    color: var(--titanium-yellow);
     margin-bottom: 1rem;
 }
 
 .card__text {
     color: var(--baby-powder);
     text-align: justify;
+    padding: 0.5rem;
     margin-bottom: 1rem;
+    border-bottom: 1px solid;
+}
+
+.card__title-list {
+    color: var(--minion-yellow);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
 }
 
 .card__list li {
     color: var(--baby-powder);
+    margin-left: 0.2rem;
+    margin-bottom: 0.2rem;
 }
 
 .card__list li::before {
