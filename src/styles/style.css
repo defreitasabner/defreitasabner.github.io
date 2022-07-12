@@ -23,8 +23,32 @@ body {
     padding: 1rem;
 }
 
+.header__title {
+    font-size: 1.2rem;
+    font-family: 'Press Start 2P', cursive;
+    color: var(--baby-powder);
+    padding: 0.5rem;
+}
+
 .navigation__container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.navigation__items {
+    color: var(--baby-powder);
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5%;
+}
+
+.navigation__items:hover {
+    background-color: var(--titanium-yellow);
+    color: var(--raisin-black);
+    transition: background-color 0.5s;
+    transition: color 0.2s;
 }
 
 .about-me__container {
@@ -90,7 +114,7 @@ body {
     font-size: 1.2rem;
     font-weight: 700;
     color: var(--titanium-yellow);
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .card__text {
