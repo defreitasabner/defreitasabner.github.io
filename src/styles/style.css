@@ -32,11 +32,12 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
+    background-color: var(--titanium-yellow);
 }
 
 .about-me__picture {
     width: 200px;
-    border: var(--titanium-yellow) solid 7px;
+    border: var(--raisin-black) solid 7px;
     border-radius: 50%;
 }
 
@@ -47,12 +48,12 @@ body {
 }
 
 .about-me__subtitle {
-    color: var(--titanium-yellow);
+    color: var(--raisin-black);
     padding: 0.5rem;
 }
 
 .my-abilities__container {
-    background-color: var(--titanium-yellow);
+    background-color: var(--raisin-black);
     padding: 2rem;
 }
 
@@ -61,6 +62,7 @@ body {
     font-weight: 700;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
+    color: var(--baby-powder);
     margin-bottom: 1rem;
 }
 
@@ -73,12 +75,12 @@ body {
 
 .card {
     width: 80%;
-    border: 3px solid;
+    border: 3px var(--baby-powder) solid;
     padding: 1rem;
 }
 
 .card:hover {
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 2px 2px 2px var(--baby-powder);
     transition: box-shadow 0.5s;
 }
 
@@ -87,11 +89,23 @@ body {
     font-family: 'Press Start 2P', cursive;
     font-size: 1.2rem;
     font-weight: 700;
+    color: var(--baby-powder);
     margin-bottom: 1rem;
+}
+
+.card__text {
+    color: var(--baby-powder);
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.card__list li {
+    color: var(--baby-powder);
 }
 
 .card__list li::before {
     content: '\25A0';
+    color: var(--baby-powder);
     margin-right: 0.5rem;
 }
 
