@@ -15,21 +15,6 @@ body {
     background-color: var(--baby-powder);
 }
 
-.header__container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--raisin-black);
-    padding: 1rem;
-}
-
-.header__title {
-    font-size: 1.2rem;
-    font-family: 'Press Start 2P', cursive;
-    color: var(--baby-powder);
-    padding: 0.5rem;
-}
-
 .navigation__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
