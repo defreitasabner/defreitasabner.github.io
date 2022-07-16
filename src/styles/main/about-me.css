@@ -1,0 +1,31 @@
+.about-me__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--minion-yellow);
+}
+
+.about-me__picture {
+    width: 200px;
+    border: var(--raisin-black) solid 7px;
+    border-radius: 50%;
+}
+
+.about-me__title {
+    font-size: 2rem;
+    color: var(--raisin-black);
+    padding: 0.5rem;
+}
+
+.about-me__subtitle {
+    color: var(--raisin-black);
+    padding: 0.5rem;
+}
+
+.about-me__text {
+    width: 70%;
+    text-align: justify;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
