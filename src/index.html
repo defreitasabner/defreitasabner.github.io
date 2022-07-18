@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="styles/reset.css">
         <link rel="stylesheet" href="styles/style.css">
         <link rel="stylesheet" href="styles/header/header.css">
+        <link rel="stylesheet" href="styles/header/menu-button.css">
         <link rel="stylesheet" href="styles/header/navigation.css">
         <link rel="stylesheet" href="styles/main/about-me.css">
         <link rel="stylesheet" href="styles/main/my-abilities.css">
@@ -18,8 +19,15 @@
     <body>
 
         <header class="header__container">
-            <h1 class="header__title">Abner Freitas - Portfolio</h1>
-            <nav class="navigation__container">
+            <div class="header__title-button-container--mobile">
+                <h1 class="header__title">Abner Freitas - Portfolio</h1>
+                <div class="navigation__menu-button--mobile" data-menu-button>
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <nav class="navigation__container" data-navigation-menu>
                 <a href="#" class="navigation__items">Sobre mim</a>
                 <a href="#" class="navigation__items">Minhas Habilidades</a>
                 <a href="#" class="navigation__items">Meus Projetos</a>
@@ -82,4 +90,5 @@
         </footer>
 
     </body>
+    <script src="scripts/menuButton.js"></script>
 </html>
