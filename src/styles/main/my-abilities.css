@@ -13,14 +13,13 @@
 }
 
 .my-abilities__cards {
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    gap: 1rem;
 }
 
 .card {
-    width: 80%;
     border: 3px var(--baby-powder) solid;
     padding: 1rem;
 }
@@ -73,5 +72,4 @@
         gap: 1rem;
     }
     
-
 }
