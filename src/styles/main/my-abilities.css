@@ -13,14 +13,13 @@
 }
 
 .my-abilities__cards {
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    gap: 1rem;
 }
 
 .card {
-    width: 80%;
     border: 3px var(--baby-powder) solid;
     padding: 1rem;
 }
@@ -63,4 +62,14 @@
     content: '\25A0';
     color: var(--baby-powder);
     margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 720px) {
+ 
+    .my-abilities__cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
 }

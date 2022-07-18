@@ -18,3 +18,15 @@
     transition: background-color 0.5s;
     transition: color 0.2s;
 }
+
+@media screen and (max-width: 720px) {
+    .navigation__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .navigation__items {
+        border-bottom: 1px solid var(--baby-powder);
+    }
+}

@@ -12,5 +12,14 @@
 }
 
 body {
+    width: 100%;
     background-color: var(--baby-powder);
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        width: auto;
+        height: 100%;
+        margin: 0 auto;
+    }
 }
