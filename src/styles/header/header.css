@@ -18,4 +18,9 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    .header__title {
+        font-size: 0.8rem;
+        border-bottom: 1px solid var(--baby-powder);
+    }
 }

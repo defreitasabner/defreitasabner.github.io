@@ -25,4 +25,8 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+
+    .navigation__items {
+        border-bottom: 1px solid var(--baby-powder);
+    }
 }
