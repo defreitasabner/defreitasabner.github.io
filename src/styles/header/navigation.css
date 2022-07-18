@@ -1,3 +1,7 @@
+.navigation__menu-button--mobile {
+    display: none;
+}
+
 .navigation__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -20,6 +24,11 @@
 }
 
 @media screen and (max-width: 720px) {
+    
+    .navigation__menu-button--mobile {
+        display: inline-block;
+        cursor: pointer;
+      }
     
     .navigation__container {
         display: none;
