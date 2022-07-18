@@ -29,3 +29,11 @@
     font-size: 1.2rem;
     padding: 0.5rem;
 }
+
+@media screen and (max-width: 720px) {
+    .about-me__picture {
+        width: 50vw;
+        border: var(--raisin-black) solid 7px;
+        border-radius: 50%;
+    }
+}
