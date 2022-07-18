@@ -19,8 +19,13 @@
         justify-content: center;
     }
 
+    .header__title-button-container--mobile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     .header__title {
-        font-size: 0.8rem;
-        border-bottom: 1px solid var(--baby-powder);
+        font-size: 0.7rem;
     }
 }
