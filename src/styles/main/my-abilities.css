@@ -64,3 +64,14 @@
     color: var(--baby-powder);
     margin-right: 0.5rem;
 }
+
+@media screen and (max-width: 720px) {
+ 
+    .my-abilities__cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+
+}
