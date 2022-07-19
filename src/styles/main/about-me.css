@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
     background-color: var(--minion-yellow);
 }
 
@@ -24,16 +24,12 @@
 }
 
 .about-me__text {
-    width: 70%;
+    width: 95%;
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0.5rem;
 }
 
 @media screen and (max-width: 720px) {
-    .about-me__picture {
-        width: 50vw;
-        border: var(--raisin-black) solid 7px;
-        border-radius: 50%;
-    }
+
 }

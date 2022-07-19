@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: var(--raisin-black);
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .header__title {
@@ -27,7 +27,7 @@
     }
 
     .header__title {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
         padding: 0;
     }
 }
