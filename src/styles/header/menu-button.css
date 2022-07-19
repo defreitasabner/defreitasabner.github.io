@@ -2,7 +2,7 @@
   
   .bar1, .bar2, .bar3 {
     width: 25px;
-    height: 2px;
+    height: 5px;
     background-color: var(--baby-powder);
     margin: 6px 0;
     transition: 0.4s;
