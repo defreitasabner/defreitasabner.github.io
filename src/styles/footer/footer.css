@@ -1,3 +1,10 @@
 .footer__container {
     background-color: var(--raisin-black);
+    text-align: center;
+    padding: 1rem;
+}
+
+.footer__copyright {
+    color: var(--baby-powder);
+    font-size: 0.8rem;
 }
