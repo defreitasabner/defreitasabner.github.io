@@ -48,5 +48,7 @@
 }
 
 @media screen and (max-width: 720px) {
-
+    .social-media__icon {
+        opacity: 85%;
+    }
 }
