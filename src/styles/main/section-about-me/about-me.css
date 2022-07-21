@@ -29,26 +29,3 @@
     font-size: 1rem;
     padding: 0.5rem;
 }
-
-.about-me__social-media-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    padding: 0.5rem;
-    gap: 1rem;
-}
-
-.social-media__icon {
-    width: 32px;
-    opacity: 50%;
-}
-
-.social-media__icon:hover {
-    opacity: 85%;
-}
-
-@media screen and (max-width: 720px) {
-    .social-media__icon {
-        opacity: 85%;
-    }
-}
