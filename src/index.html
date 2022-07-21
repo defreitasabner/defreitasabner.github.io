@@ -10,8 +10,10 @@
         <link rel="stylesheet" href="styles/header/header.css">
         <link rel="stylesheet" href="styles/header/menu-button.css">
         <link rel="stylesheet" href="styles/header/navigation.css">
-        <link rel="stylesheet" href="styles/main/about-me.css">
+        <link rel="stylesheet" href="styles/main/section-about-me/about-me.css">
+        <link rel="stylesheet" href="styles/main/section-about-me/social-media.css">
         <link rel="stylesheet" href="styles/main/my-abilities.css">
+        <link rel="stylesheet" href="styles/main/my-projects.css">
         <link rel="stylesheet" href="styles/footer/footer.css">
         
         <title>Abner Freitas - Portfolio</title>
@@ -30,7 +32,7 @@
             <nav class="navigation__container" data-navigation-menu>
                 <a href="#about-me-section" class="navigation__items">Sobre mim</a>
                 <a href="#my-abilities-section" class="navigation__items">Minhas Habilidades</a>
-                <a href="#" class="navigation__items">Meus Projetos</a>
+                <a href="#my-projects-section" class="navigation__items">Meus Projetos</a>
             </nav>
         </header>
 
@@ -43,6 +45,22 @@
                 >
                 <h2 class="about-me__title">Abner Freitas</h2>
                 <span class="about-me__subtitle">Desenvolvedor FullStack</span>
+                <div class="social-media__container">
+                    <a href="https://github.com/defreitasabner" target="_blank">
+                        <img 
+                            src="./assets/img/github_logo.png" 
+                            alt="Github - defreitasabner"
+                            class="social-media__icon"
+                        >
+                    </a>
+                    <a href="https://www.linkedin.com/in/abner-silveira-de-freitas/" target="_blank">
+                        <img 
+                            src="./assets/img/linkedin_logo.png" 
+                            alt="LinkedIn - Abner Silveira de Freitas"
+                            class="social-media__icon"
+                        >
+                    </a>
+                </div>
                 <p class="about-me__text">Programador e biólogo. Atualmente cursando doutorado em Biologia na UFRJ e bacharel em Tecnologia da Informação na UNIVESP. Apaixonado por programação, automação e robótica. Estudo com frequência e tenho experiência com desenvolvimento web fullstack (Front-End e Back-End) e também mobile. Além disso, possuo conhecimentos em Data Science, Machine Learning e Deep Learning. Também tenho experiência superficial com robótica e sistemas embarcados.</p>
             </section>
             <section class="my-abilities__container">
@@ -83,10 +101,13 @@
                     </div>
                 </div>
             </section>
+            <section class="my-projects__container" id="my-projects-section">
+                <h2 class="my-projects__title">Meus Projetos (em construção)</h2>
+            </section>
         </main>
         
         <footer class="footer__container">
-
+            <p class="footer__copyright">&copy; 2022 Abner Silveira de Freitas - Todos os direitos reservados</p>
         </footer>
 
     </body>

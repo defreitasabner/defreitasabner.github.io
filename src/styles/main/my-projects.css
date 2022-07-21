@@ -1,0 +1,13 @@
+.my-projects__container {
+    background-color: var(--baby-powder);
+    padding: 2rem;
+}
+
+.my-projects__title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: var(--raisin-black);
+    margin-bottom: 2rem;
+}
