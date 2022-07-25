@@ -1,6 +1,7 @@
 .my-projects__container {
     background-color: var(--baby-powder);
     padding: 2rem;
+    background-color: var(--minion-yellow);
 }
 
 .my-projects__title {
@@ -24,4 +25,36 @@
     gap: 0.5rem;
     border: 3px solid var(--raisin-black);
     padding: 1rem;
+}
+
+.my-projects-card__title {
+    font-size: 1.2rem;
+    color: var(--raisin-black);
+    font-family: 'Press Start 2P', cursive;
+}
+
+.my-projects-card__title::before {
+    content: '>>';
+    margin-right: 0.3rem;
+}
+
+.my-projects-card__text {
+    color: var(--raisin-black);
+}
+
+.my-projects-card__link {
+    color: var(--raisin-black);
+    text-decoration: none;
+    text-align: right;
+}
+
+.my-projects-card__link:hover {
+    color: var(--baby-powder);
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 720px) {
+    .my-projects__cards {
+        grid-template-columns: 1fr;
+    }
 }

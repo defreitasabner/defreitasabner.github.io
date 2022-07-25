@@ -25,11 +25,6 @@
     padding: 1rem;
 }
 
-.my-abilities-card__container:hover {
-    box-shadow: 2px 2px 2px var(--baby-powder);
-    transition: box-shadow 0.5s;
-}
-
 .my-abilities-card__title {
     text-align: center;
     font-family: 'Press Start 2P', cursive;
