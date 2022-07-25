@@ -11,3 +11,17 @@
     color: var(--raisin-black);
     margin-bottom: 2rem;
 }
+
+.my-projects__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.my-projects-card__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    border: 3px solid var(--raisin-black);
+    padding: 1rem;
+}
