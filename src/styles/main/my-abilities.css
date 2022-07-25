@@ -10,6 +10,7 @@
     font-family: 'Press Start 2P', cursive;
     color: var(--baby-powder);
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 .my-abilities__cards {
@@ -19,17 +20,17 @@
     gap: 1rem;
 }
 
-.card {
+.my-abilities-card__container {
     border: 3px var(--baby-powder) solid;
     padding: 1rem;
 }
 
-.card:hover {
+.my-abilities-card__container:hover {
     box-shadow: 2px 2px 2px var(--baby-powder);
     transition: box-shadow 0.5s;
 }
 
-.card__title {
+.my-abilities-card__title {
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     font-size: 1.2rem;
@@ -38,7 +39,7 @@
     margin-bottom: 0.5rem;
 }
 
-.card__text {
+.my-abilities-card__text {
     color: var(--baby-powder);
     text-align: justify;
     padding: 0.5rem;
@@ -46,19 +47,19 @@
     border-bottom: 1px solid;
 }
 
-.card__title-list {
+.my-abilities-card__title-list {
     color: var(--minion-yellow);
     font-weight: 700;
     margin-bottom: 0.5rem;
 }
 
-.card__list li {
+.my-abilities-card__list li {
     color: var(--baby-powder);
     margin-left: 0.2rem;
     margin-bottom: 0.2rem;
 }
 
-.card__list li::before {
+.my-abilities-card__list li::before {
     content: '\25A0';
     color: var(--baby-powder);
     margin-right: 0.5rem;
@@ -66,6 +67,15 @@
 
 @media screen and (max-width: 720px) {
  
+    .my-abilities__container {
+        padding: 1rem;
+    }
+
+    .my-abilities__title {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
     .my-abilities__cards {
         display: grid;
         grid-template-columns: 1fr;
