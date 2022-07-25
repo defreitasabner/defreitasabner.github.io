@@ -10,6 +10,7 @@
 
 .navigation__items {
     color: var(--baby-powder);
+    font-size: 1.2rem;
     text-decoration: none;
     text-align: center;
     padding: 0.5rem;
