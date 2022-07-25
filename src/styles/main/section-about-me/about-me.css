@@ -28,4 +28,20 @@
     text-align: justify;
     font-size: 1rem;
     padding: 0.5rem;
+    color: var(--raisin-black);
+}
+
+@media screen and (max-width: 720px) {
+    .about-me__picture {
+        width: 40vw;
+        border: 5px solid var(--raisin-black);
+    }
+
+    .about-me__title {
+        font-size: 1.6rem;
+    }
+
+    .about-me__subtitle {
+        font-size: 0.8rem;
+    }
 }

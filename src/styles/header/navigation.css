@@ -6,22 +6,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
-    border-left: 1px solid var(--baby-powder);
-    padding: 0.5rem;
 }
 
 .navigation__items {
     color: var(--baby-powder);
     text-decoration: none;
     text-align: center;
-    padding: 0.3rem;
+    padding: 0.5rem;
+    border-bottom: 2px solid var(--raisin-black);
 }
 
 .navigation__items:hover {
-    background-color: var(--minion-yellow);
-    color: var(--raisin-black);
-    transition: background-color 0.5s;
-    transition: color 0.2s;
+    color: var(--minion-yellow);
+    border-bottom: 2px solid var(--minion-yellow);
 }
 
 @media screen and (max-width: 720px) {
