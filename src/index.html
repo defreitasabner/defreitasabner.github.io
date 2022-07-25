@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="styles/header/menu-button.css">
         <link rel="stylesheet" href="styles/header/navigation.css">
         <link rel="stylesheet" href="styles/main/section-about-me/about-me.css">
+        <link rel="stylesheet" href="styles/main/section-about-me/personal-info.css">
         <link rel="stylesheet" href="styles/main/section-about-me/social-media.css">
         <link rel="stylesheet" href="styles/main/my-abilities.css">
         <link rel="stylesheet" href="styles/main/my-projects.css">
@@ -38,30 +39,32 @@
 
         <main class="main__container">
             <section class="about-me__container" id="about-me-section">
-                <img 
-                    class="about-me__picture"
-                    src="https://github.com/defreitasabner.png" 
-                    alt="Abner Freitas"
-                >
-                <h2 class="about-me__title">Abner Freitas</h2>
-                <span class="about-me__subtitle">Desenvolvedor FullStack</span>
-                <div class="social-media__container">
-                    <a href="https://github.com/defreitasabner" target="_blank">
-                        <img 
-                            src="./assets/img/github_logo.png" 
-                            alt="Github - defreitasabner"
-                            class="social-media__icon"
-                        >
-                    </a>
-                    <a href="https://www.linkedin.com/in/abner-silveira-de-freitas/" target="_blank">
-                        <img 
-                            src="./assets/img/linkedin_logo.png" 
-                            alt="LinkedIn - Abner Silveira de Freitas"
-                            class="social-media__icon"
-                        >
-                    </a>
+                <div class="personal-info__container">
+                    <img 
+                        class="personal-info__picture"
+                        src="https://github.com/defreitasabner.png" 
+                        alt="Abner Freitas"
+                    >
+                    <h3 class="personal-info__name">Abner Freitas</h3>
+                    <span class="personal-info__role">Desenvolvedor FullStack</span>
+                    <div class="social-media__container">
+                        <a href="https://github.com/defreitasabner" target="_blank">
+                            <img 
+                                src="./assets/img/github_logo.png" 
+                                alt="Github - defreitasabner"
+                                class="social-media__icon"
+                            >
+                        </a>
+                        <a href="https://www.linkedin.com/in/abner-silveira-de-freitas/" target="_blank">
+                            <img 
+                                src="./assets/img/linkedin_logo.png" 
+                                alt="LinkedIn - Abner Silveira de Freitas"
+                                class="social-media__icon"
+                            >
+                        </a>
+                    </div>
+                    <p class="personal-info__resume">Programador e biólogo. Atualmente cursando doutorado em Biologia na UFRJ e bacharel em Tecnologia da Informação na UNIVESP. Apaixonado por programação, automação e robótica. Estudo com frequência e tenho experiência com desenvolvimento web fullstack (Front-End e Back-End) e também mobile. Além disso, possuo conhecimentos em Data Science, Machine Learning e Deep Learning. Também tenho experiência superficial com robótica e sistemas embarcados.</p>
                 </div>
-                <p class="about-me__text">Programador e biólogo. Atualmente cursando doutorado em Biologia na UFRJ e bacharel em Tecnologia da Informação na UNIVESP. Apaixonado por programação, automação e robótica. Estudo com frequência e tenho experiência com desenvolvimento web fullstack (Front-End e Back-End) e também mobile. Além disso, possuo conhecimentos em Data Science, Machine Learning e Deep Learning. Também tenho experiência superficial com robótica e sistemas embarcados.</p>
             </section>
             <section class="my-abilities__container">
                 <h2 class="my-abilities__title" id="my-abilities-section">Minhas Habilidades Técnicas</h2>
@@ -107,7 +110,11 @@
                     <div class="my-projects-card__container">
                         <h3 class="my-projects-card__title">MolEasy</h3>
                         <p class="my-projects-card__text">Software desenvolvido para converter e manipular arquivos para análises de DNA.</p>
-                        <a href="https://github.com/defreitasabner/my_molecular_stuffs" class="my-projects-card__link">Saiba mais...</a>
+                        <a
+                            href="https://github.com/defreitasabner/my_molecular_stuffs" 
+                            class="my-projects-card__link"
+                            target="_blank"
+                        >Saiba mais...</a>
                     </div>
                 </div>
             </section>

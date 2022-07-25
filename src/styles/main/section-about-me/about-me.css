@@ -1,47 +1,8 @@
 .about-me__container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
     align-items: center;
+    justify-content: center;
     padding: 1rem;
     background-color: var(--baby-powder);
-}
-
-.about-me__picture {
-    width: 200px;
-    border: var(--raisin-black) solid 7px;
-    border-radius: 50%;
-}
-
-.about-me__title {
-    font-size: 2rem;
-    color: var(--raisin-black);
-    padding: 0.5rem;
-}
-
-.about-me__subtitle {
-    color: var(--raisin-black);
-    padding: 0.5rem;
-}
-
-.about-me__text {
-    width: 95%;
-    text-align: justify;
-    font-size: 1rem;
-    padding: 0.5rem;
-    color: var(--raisin-black);
-}
-
-@media screen and (max-width: 720px) {
-    .about-me__picture {
-        width: 40vw;
-        border: 5px solid var(--raisin-black);
-    }
-
-    .about-me__title {
-        font-size: 1.6rem;
-    }
-
-    .about-me__subtitle {
-        font-size: 0.8rem;
-    }
 }
