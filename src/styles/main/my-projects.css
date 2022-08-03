@@ -41,6 +41,7 @@
 
 .my-projects-card__text {
     color: var(--raisin-black);
+    text-align: justify;
 }
 
 .my-projects-card__repo-infos {
@@ -62,8 +63,13 @@
     color: var(--raisin-black);
 }
 
-.status__text::after {
+.status__text--construcao::after {
     content: '\1F6A7';
+    margin-left: 0.3rem;
+}
+
+.status__text--concluido::after {
+    content: '\2705';
     margin-left: 0.3rem;
 }
 
@@ -81,5 +87,14 @@
 @media screen and (max-width: 720px) {
     .my-projects__cards {
         grid-template-columns: 1fr;
+    }
+
+    .my-projects-card__title {
+        font-size: 1rem;
+    }
+
+    .my-projects-card__repo-infos {
+        flex-direction: column;
+        gap: 1rem;
     }
 }
