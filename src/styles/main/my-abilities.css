@@ -5,7 +5,6 @@
 
 .my-abilities__title {
     font-size: 1.5rem;
-    font-weight: 700;
     text-align: center;
     font-family: 'Press Start 2P', cursive;
     color: var(--baby-powder);
@@ -13,15 +12,17 @@
     width: 100%;
 }
 
+
 .my-abilities__cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     gap: 1rem;
 }
 
 .my-abilities-card__container {
-    border: 3px var(--baby-powder) solid;
+    border: 2px var(--baby-powder) solid;
+    box-shadow: 5px 5px 5px var(--almost-black);
     padding: 1rem;
 }
 
@@ -31,36 +32,6 @@
     font-weight: 700;
     color: var(--titanium-yellow);
     margin-bottom: 0.5rem;
-}
-
-.my-abilities-card__title--frontend::before {
-    content: '<';
-    margin-right: 0.2rem;
-}
-
-.my-abilities-card__title--frontend::after {
-    content: '>';
-    margin-left: 0.2rem;
-}
-
-.my-abilities-card__title--backend::before {
-    content: '{';
-    margin-right: 0.2rem;
-}
-
-.my-abilities-card__title--backend::after {
-    content: '}';
-    margin-left: 0.2rem;
-}
-
-.my-abilities-card__title--data-science::before {
-    content: '[[';
-    margin-right: 0.2rem;
-}
-
-.my-abilities-card__title--data-science::after {
-    content: ']]';
-    margin-left: 0.2rem;
 }
 
 .my-abilities-card__text {
