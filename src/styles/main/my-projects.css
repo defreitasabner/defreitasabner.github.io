@@ -25,6 +25,7 @@
     gap: 0.5rem;
     border: 3px solid var(--raisin-black);
     padding: 1rem;
+    background-color: var(--baby-powder);
 }
 
 .my-projects-card__title {
@@ -49,7 +50,7 @@
 }
 
 .my-projects-card__link:hover {
-    color: var(--baby-powder);
+    color: var(--titanium-yellow);
     text-decoration: underline;
 }
 
