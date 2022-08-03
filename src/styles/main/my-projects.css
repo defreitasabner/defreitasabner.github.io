@@ -22,7 +22,7 @@
 .my-projects-card__container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 0.5rem;
+    gap: 1rem;
     border: 3px solid var(--raisin-black);
     padding: 1rem;
     background-color: var(--baby-powder);
@@ -41,6 +41,30 @@
 
 .my-projects-card__text {
     color: var(--raisin-black);
+}
+
+.my-projects-card__repo-infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.status__container {
+    display: flex;
+}
+
+.status__label {
+    font-weight: 700;
+    margin-right: 0.5rem;
+    color: var(--raisin-black);
+}
+
+.status__text {
+    color: var(--raisin-black);
+}
+
+.status__text::after {
+    content: '\1F6A7';
+    margin-left: 0.3rem;
 }
 
 .my-projects-card__link {
