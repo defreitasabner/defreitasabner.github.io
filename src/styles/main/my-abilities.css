@@ -16,7 +16,7 @@
 
 .my-abilities__cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-items: center;
     gap: 1rem;
 }
@@ -33,36 +33,6 @@
     font-weight: 700;
     color: var(--titanium-yellow);
     margin-bottom: 0.5rem;
-}
-
-.my-abilities-card__title--frontend::before {
-    content: '<';
-    margin-right: 0.2rem;
-}
-
-.my-abilities-card__title--frontend::after {
-    content: '>';
-    margin-left: 0.2rem;
-}
-
-.my-abilities-card__title--backend::before {
-    content: '{';
-    margin-right: 0.2rem;
-}
-
-.my-abilities-card__title--backend::after {
-    content: '}';
-    margin-left: 0.2rem;
-}
-
-.my-abilities-card__title--data-science::before {
-    content: '[[';
-    margin-right: 0.2rem;
-}
-
-.my-abilities-card__title--data-science::after {
-    content: ']]';
-    margin-left: 0.2rem;
 }
 
 .my-abilities-card__text {
