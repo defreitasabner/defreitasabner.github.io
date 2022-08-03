@@ -21,7 +21,8 @@
 }
 
 .my-abilities-card__container {
-    border: 3px var(--baby-powder) solid;
+    border: 2px var(--baby-powder) solid;
+    box-shadow: 5px 5px 5px black;
     padding: 1rem;
 }
 
