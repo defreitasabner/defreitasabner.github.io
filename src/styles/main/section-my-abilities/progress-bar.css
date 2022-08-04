@@ -8,6 +8,7 @@
     gap: 0.5rem;
     justify-content: center;
     align-items: center;
+    padding: 0.5rem;
 }
 
 .progress-bar {
@@ -15,7 +16,7 @@
 }
 
 .progress-bar__level {
-    padding: 0.8rem 1.5rem;
+    padding: 0.8rem 2rem;
     border: 2px solid var(--baby-powder);
 }
 
@@ -25,4 +26,11 @@
 
 .progress-bar__label {
     color: var(--baby-powder);
+    text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+    .progress-bar__level {
+        padding: 0.8rem 1.5rem;
+    }
 }
