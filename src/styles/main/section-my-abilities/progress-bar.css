@@ -1,11 +1,9 @@
 .my-abilities-card__progress-level {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     align-items: center;
 }
 
 .progress-bar__container {
-    grid-column: 2 / span 2;
     display: grid;
     gap: 0.5rem;
     justify-content: center;
