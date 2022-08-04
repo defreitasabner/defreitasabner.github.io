@@ -22,7 +22,7 @@
 }
 
 .personal-info__resume {
-    width: 95%;
+    width: 60%;
     text-align: justify;
     font-size: 1rem;
     padding: 0.5rem;
@@ -40,5 +40,9 @@
 
     .personal-info__role {
         font-size: 0.8rem;
+    }
+
+    .personal-info__resume {
+        width: 90%;
     }
 }
