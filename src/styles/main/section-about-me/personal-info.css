@@ -7,6 +7,7 @@
 .personal-info__picture {
     width: 200px;
     border-radius: 50%;
+    box-shadow: 3px 3px 3px var(--raisin-black);
 }
 
 .personal-info__name {
