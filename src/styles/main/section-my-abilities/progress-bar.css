@@ -1,10 +1,18 @@
 .my-abilities-card__progress-level {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    justify-content: space-between;
 }
 
 .progress-bar__container {
+    grid-column: 2 / span 2;
+    display: grid;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar {
     display: flex;
 }
 
@@ -15,4 +23,8 @@
 
 .progress-bar__level--active {
     background-color: var(--minion-yellow);
+}
+
+.progress-bar__label {
+    color: var(--baby-powder);
 }
