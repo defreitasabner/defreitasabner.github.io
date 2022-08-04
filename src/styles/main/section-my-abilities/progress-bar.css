@@ -1,0 +1,18 @@
+.my-abilities-card__progress-level {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress-bar__container {
+    display: flex;
+}
+
+.progress-bar__level {
+    padding: 0.8rem 1.5rem;
+    border: 2px solid var(--baby-powder);
+}
+
+.progress-bar__level--active {
+    background-color: var(--minion-yellow);
+}

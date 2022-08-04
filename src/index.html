@@ -13,7 +13,8 @@
         <link rel="stylesheet" href="styles/main/section-about-me/about-me.css">
         <link rel="stylesheet" href="styles/main/section-about-me/personal-info.css">
         <link rel="stylesheet" href="styles/main/section-about-me/social-media.css">
-        <link rel="stylesheet" href="styles/main/my-abilities.css">
+        <link rel="stylesheet" href="styles/main/section-my-abilities/my-abilities.css">
+        <link rel="stylesheet" href="styles/main/section-my-abilities/progress-bar.css">
         <link rel="stylesheet" href="styles/main/my-projects.css">
         <link rel="stylesheet" href="styles/footer/footer.css">
         
@@ -93,13 +94,24 @@
                     <div class="my-abilities-card__container">
                         <h3 class="my-abilities-card__title my-abilities-card__title--frontend">Front-End</h3>
                         <p class="my-abilities-card__text">Criação de interfaces de usuários para sistemas web, utilizando HTMl, CSS e JavaScript. Utilizo também bibliotecas e frameworks como React, NextJS e SASS para auxiliar no desenvolvimento de interfaces.</p>
-                        <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
-                        <ul class="my-abilities-card__list">
-                            <li>HTML, CSS e JavaScript (Web básico)</li>
-                            <li>React e NextJS (Web)</li>
-                            <li>React Native (Mobile)</li>
-                            <li>SASS (Estilização)</li>
-                        </ul>
+                        <div class="my-abilities-card__list-container">
+                            <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
+                            <ul class="my-abilities-card__list">
+                                <li>HTML, CSS e JavaScript (Web básico)</li>
+                                <li>React e NextJS (Web)</li>
+                                <li>React Native (Mobile)</li>
+                                <li>SASS (Estilização)</li>
+                            </ul>
+                        </div>
+                        <div class="my-abilities-card__progress-level">
+                            <p class="my-abilities-card__title-list">Nível de conhecimento:</p>
+                            <div class="progress-bar__container">
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level"></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="my-abilities-card__container">
                         <h3 class="my-abilities-card__title my-abilities-card__title--backend">Back-End</h3>

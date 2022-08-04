@@ -37,9 +37,13 @@
 .my-abilities-card__text {
     color: var(--baby-powder);
     text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.my-abilities-card__list-container {
     padding: 0.5rem;
     margin-bottom: 1rem;
-    border-bottom: 1px solid;
+    border: 1px solid var(--baby-powder);
 }
 
 .my-abilities-card__title-list {
