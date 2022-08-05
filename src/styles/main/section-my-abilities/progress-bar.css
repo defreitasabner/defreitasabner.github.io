@@ -1,8 +1,3 @@
-.my-abilities-card__progress-level {
-    display: grid;
-    align-items: center;
-}
-
 .progress-bar__container {
     display: grid;
     gap: 0.5rem;
@@ -31,6 +26,6 @@
 
 @media screen and (max-width: 720px) {
     .progress-bar__level {
-        padding: 0.8rem 1.5rem;
+        padding: 0.8rem 1.2rem;
     }
 }
