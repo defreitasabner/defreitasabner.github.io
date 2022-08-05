@@ -6,8 +6,8 @@
 
 .personal-info__picture {
     width: 200px;
-    border: var(--raisin-black) solid 7px;
     border-radius: 50%;
+    box-shadow: 3px 3px 3px var(--raisin-black);
 }
 
 .personal-info__name {
@@ -22,7 +22,7 @@
 }
 
 .personal-info__resume {
-    width: 95%;
+    width: 60%;
     text-align: justify;
     font-size: 1rem;
     padding: 0.5rem;
@@ -32,7 +32,6 @@
 @media screen and (max-width: 720px) {
     .personal-info__picture {
         width: 40vw;
-        border: 5px solid var(--raisin-black);
     }
 
     .personal-info__name {
@@ -41,5 +40,9 @@
 
     .personal-info__role {
         font-size: 0.8rem;
+    }
+
+    .personal-info__resume {
+        width: 90%;
     }
 }

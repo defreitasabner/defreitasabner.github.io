@@ -13,7 +13,8 @@
         <link rel="stylesheet" href="styles/main/section-about-me/about-me.css">
         <link rel="stylesheet" href="styles/main/section-about-me/personal-info.css">
         <link rel="stylesheet" href="styles/main/section-about-me/social-media.css">
-        <link rel="stylesheet" href="styles/main/my-abilities.css">
+        <link rel="stylesheet" href="styles/main/section-my-abilities/my-abilities.css">
+        <link rel="stylesheet" href="styles/main/section-my-abilities/progress-bar.css">
         <link rel="stylesheet" href="styles/main/my-projects.css">
         <link rel="stylesheet" href="styles/footer/footer.css">
         
@@ -50,20 +51,41 @@
                     <div class="social-media__container">
                         <a href="https://github.com/defreitasabner" target="_blank">
                             <img 
-                                src="./assets/img/github_logo.png" 
-                                alt="Github - defreitasabner"
+                                src="./assets/img/github_icon.svg" 
+                                alt="GitHub - defreitasabner"
+                                class="social-media__icon"
+                            >
+                        </a>
+                        <a href="https://gitlab.com/defreitasabner" target="_blank">
+                            <img 
+                                src="./assets/img/gitlab_icon.svg" 
+                                alt="GitLab - @defreitasabner"
                                 class="social-media__icon"
                             >
                         </a>
                         <a href="https://www.linkedin.com/in/abner-silveira-de-freitas/" target="_blank">
                             <img 
-                                src="./assets/img/linkedin_logo.png" 
+                                src="./assets/img/linkedin_icon.svg" 
                                 alt="LinkedIn - Abner Silveira de Freitas"
                                 class="social-media__icon"
                             >
                         </a>
+                        <a href="https://www.kaggle.com/abnerfreitas" target="_blank">
+                            <img 
+                                src="./assets/img/kaggle_icon.svg" 
+                                alt="Kaggle - abnerfreitas"
+                                class="social-media__icon"
+                            >
+                        </a>
+                        <a href="https://medium.com/@abnerdefreitas" target="_blank">
+                            <img 
+                                src="./assets/img/medium_icon.svg" 
+                                alt="Medium - @abnerdefreitas"
+                                class="social-media__icon"
+                            >
+                        </a>
                     </div>
-                    <p class="personal-info__resume">Programador e biólogo. Atualmente cursando doutorado em Biologia na UFRJ e bacharel em Tecnologia da Informação na UNIVESP. Apaixonado por programação, automação e robótica. Estudo com frequência e tenho experiência com desenvolvimento web fullstack (Front-End e Back-End) e também mobile. Além disso, possuo conhecimentos em Data Science, Machine Learning e Deep Learning. Também tenho experiência superficial com robótica e sistemas embarcados.</p>
+                    <p class="personal-info__resume">Programador e biólogo. Atualmente cursando doutorado em Biologia na UFRJ em conjunto com o bacharel em Tecnologia da Informação na UNIVESP. Recentemente descobri minha paixão por programação, automação e robótica. Estudo profundamente e tenho experiência com desenvolvimento web fullstack (Front-End e Back-End), incluindo desenvolvimento mobile. Também tenho grande interesse em Data Science, Machine Learning e Deep Learning, áreas que tento aliar aos projetos web que executo. Por último, gosto muito de robótica e automação, por conta disso, participo da equipe de robótica da UFRJ (MinervaBots) e executo pequenos projetos pessoais com sistemas embarcados.</p>
                 </div>
             </section>
             <section class="my-abilities__container">
@@ -72,46 +94,98 @@
                     <div class="my-abilities-card__container">
                         <h3 class="my-abilities-card__title my-abilities-card__title--frontend">Front-End</h3>
                         <p class="my-abilities-card__text">Criação de interfaces de usuários para sistemas web, utilizando HTMl, CSS e JavaScript. Utilizo também bibliotecas e frameworks como React, NextJS e SASS para auxiliar no desenvolvimento de interfaces.</p>
-                        <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
-                        <ul class="my-abilities-card__list">
-                            <li>HTML, CSS e JavaScript (Web básico)</li>
-                            <li>React e NextJS (Web)</li>
-                            <li>React Native (Mobile)</li>
-                            <li>SASS (Estilização)</li>
-                        </ul>
+                        <div class="my-abilities-card__list-container">
+                            <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
+                            <ul class="my-abilities-card__list">
+                                <li>HTML, CSS e JavaScript (Web básico)</li>
+                                <li>React e NextJS (Web)</li>
+                                <li>React Native (Mobile)</li>
+                                <li>SASS (Estilização)</li>
+                            </ul>
+                        </div>
+                        <div class="progress-bar__container">
+                            <div class="progress-bar">
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level"></div>
+                                <div class="progress-bar__level"></div>
+                            </div>
+                            <p class="progress-bar__label">Intermediário-Avançado</p>
+                        </div>
                     </div>
                     <div class="my-abilities-card__container">
                         <h3 class="my-abilities-card__title my-abilities-card__title--backend">Back-End</h3>
                         <p class="my-abilities-card__text">Desenvolvimento de API REST para integração entre o banco de dados e o front-end. Utilizo as linguagens JavaScript e/ou Python. Também utilizo ORMs para facilitar a comunicação com banco de dados.</p>
-                        <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
-                        <ul class="my-abilities-card__list">
-                            <li>NodeJS e Python</li>
-                            <li>Express e Sequelize (JS)</li>
-                            <li>Flask e Django (Python)</li>
-                            <li>MySQL</li>
-                        </ul>
+                        <div class="my-abilities-card__list-container">
+                            <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
+                            <ul class="my-abilities-card__list">
+                                <li>NodeJS e Python</li>
+                                <li>Express e Sequelize (JS)</li>
+                                <li>Flask e Django (Python)</li>
+                                <li>MySQL</li>
+                            </ul>
+                        </div>
+                        <div class="progress-bar__container">
+                            <div class="progress-bar">
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level"></div>
+                                <div class="progress-bar__level"></div>
+                                <div class="progress-bar__level"></div>
+                            </div>
+                            <p class="progress-bar__label">Intermediário</p>
+                        </div>
                     </div>
                     <div class="my-abilities-card__container">
                         <h3 class="my-abilities-card__title my-abilities-card__title--data-science">Data Science</h3>
                         <p class="my-abilities-card__text">Análises exploratórias de dados (EDA). Treinamento e aplicação de modelos de Machine Learning para predições estatísticas. Aplicação de redes neurais para predições estatísticas e reconhecimento de imagens.</p>
-                        <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
-                        <ul class="my-abilities-card__list">
-                            <li>Excel, Google Sheet e Jupyter (EDA)</li>
-                            <li>Pandas, MatplotLib e Seaborn (EDA)</li>
-                            <li>SciKitLearn (Machine Learning)</li>
-                            <li>Pytorch (Deep Learning)</li>
-                        </ul>
+                        <div class="my-abilities-card__list-container">
+                            <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
+                            <ul class="my-abilities-card__list">
+                                <li>Excel, Google Sheet e Jupyter (EDA)</li>
+                                <li>Pandas, MatplotLib e Seaborn (EDA)</li>
+                                <li>SciKitLearn (Machine Learning)</li>
+                                <li>Pytorch (Deep Learning)</li>
+                            </ul>
+                        </div>
+                        <div class="progress-bar__container">
+                            <div class="progress-bar">
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level"></div>
+                                <div class="progress-bar__level"></div>
+                                <div class="progress-bar__level"></div>
+                                <div class="progress-bar__level"></div>
+                            </div>
+                            <p class="progress-bar__label">Iniciante-Intermediário</p>
+                        </div>
                     </div>
                     <div class="my-abilities-card__container">
                         <h3 class="my-abilities-card__title my-abilities-card__title--data-science">Sistemas Embarcados</h3>
                         <p class="my-abilities-card__text">Desenvolvimento de projetos com sistemas embarcados usando microcontroladores para execução de tarefas automatizadas. Pequenos projetos de automação residencial e robótica.</p>
-                        <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
-                        <ul class="my-abilities-card__list">
-                            <li>C++ e Python</li>
-                            <li>Arduinos e ESP's (Microcontroladores)</li>
-                            <li>PlatformIO (Framework)</li>
-                            <li>ROS (Sistema Operacional de Robôs)</li>
-                        </ul>
+                        <div class="my-abilities-card__list-container">
+                            <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
+                            <ul class="my-abilities-card__list">
+                                <li>C++ e Python</li>
+                                <li>Arduinos e ESP's (Microcontroladores)</li>
+                                <li>PlatformIO (Framework)</li>
+                                <li>ROS (Sistema Operacional de Robôs)</li>
+                            </ul>
+                        </div>
+                        <div class="progress-bar__container">
+                            <div class="progress-bar">
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level"></div>
+                                <div class="progress-bar__level"></div>
+                                <div class="progress-bar__level"></div>
+                                <div class="progress-bar__level"></div>
+                            </div>
+                            <p class="progress-bar__label">Intermediário</p>
+                        </div>
                     </div>
                 </div>
             </section>

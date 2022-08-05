@@ -93,8 +93,23 @@
         grid-template-columns: 1fr;
     }
 
-    .my-projects-card__repo-infos {
-        flex-direction: column;
-        gap: 1rem;
+    .my-projects-card__title {
+        font-size: 0.8rem;
+    }
+
+    .my-projects-card__text {
+        font-size: 0.9rem;
+    }
+
+    .status__label {
+        font-size: 0.8rem;
+    }
+
+    .status__text {
+        font-size: 0.8rem;
+    }
+
+    .my-projects-card__link {
+        font-size: 0.8rem;
     }
 }
