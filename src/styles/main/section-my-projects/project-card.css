@@ -1,52 +1,32 @@
-.my-projects__container {
-    background-color: var(--baby-powder);
-    padding: 2rem;
-    background-color: var(--minion-yellow);
-}
-
-.my-projects__title {
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-    color: var(--raisin-black);
-    margin-bottom: 2rem;
-}
-
-.my-projects__cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-}
-
-.my-projects-card__container {
+.project-card__container {
     display: grid;
     grid-template-columns: 1fr;
     border: 3px solid var(--raisin-black);
     background-color: var(--baby-powder);
 }
 
-.my-projects-card__infos {
+.project-card__infos {
     padding: 0.5rem;
 }
 
-.my-projects-card__title {
+.project-card__title {
     font-size: 1rem;
     color: var(--raisin-black);
     font-family: 'Press Start 2P', cursive;
     margin-bottom: 0.5rem;
 }
 
-.my-projects-card__title::before {
+.project-card__title::before {
     content: '>>';
     margin-right: 0.3rem;
 }
 
-.my-projects-card__text {
+.project-card__text {
     color: var(--raisin-black);
     text-align: justify;
 }
 
-.my-projects-card__repo-infos {
+.project-card__repo-infos {
     display: flex;
     justify-content: space-between;
     background-color: var(--raisin-black);
@@ -77,27 +57,23 @@
     margin-left: 0.3rem;
 }
 
-.my-projects-card__link {
+.project-card__link {
     color: var(--baby-powder);
     text-decoration: none;
     text-align: right;
 }
 
-.my-projects-card__link:hover {
+.project-card__link:hover {
     color: var(--titanium-yellow);
     text-decoration: underline;
 }
 
 @media screen and (max-width: 720px) {
-    .my-projects__cards {
-        grid-template-columns: 1fr;
-    }
-
-    .my-projects-card__title {
+    .project-card__title {
         font-size: 0.8rem;
     }
 
-    .my-projects-card__text {
+    .project-card__text {
         font-size: 0.9rem;
     }
 
@@ -109,7 +85,7 @@
         font-size: 0.8rem;
     }
 
-    .my-projects-card__link {
+    .project-card__link {
         font-size: 0.8rem;
     }
 }

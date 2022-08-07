@@ -14,8 +14,10 @@
         <link rel="stylesheet" href="styles/main/section-about-me/personal-info.css">
         <link rel="stylesheet" href="styles/main/section-about-me/social-media.css">
         <link rel="stylesheet" href="styles/main/section-my-abilities/my-abilities.css">
+        <link rel="stylesheet" href="styles/main/section-my-abilities/ability-card.css">
         <link rel="stylesheet" href="styles/main/section-my-abilities/progress-bar.css">
-        <link rel="stylesheet" href="styles/main/my-projects.css">
+        <link rel="stylesheet" href="styles/main/section-my-projects/my-projects.css">
+        <link rel="stylesheet" href="styles/main/section-my-projects/project-card.css">
         <link rel="stylesheet" href="styles/footer/footer.css">
         
         <title>Abner Freitas - Portfolio</title>
@@ -85,18 +87,18 @@
                             >
                         </a>
                     </div>
-                    <p class="personal-info__resume">Programador e biólogo. Atualmente cursando doutorado em Biologia na UFRJ em conjunto com o bacharel em Tecnologia da Informação na UNIVESP. Recentemente descobri minha paixão por programação, automação e robótica. Estudo profundamente e tenho experiência com desenvolvimento web fullstack (Front-End e Back-End), incluindo desenvolvimento mobile. Também tenho grande interesse em Data Science, Machine Learning e Deep Learning, áreas que tento aliar aos projetos web que executo. Por último, gosto muito de robótica e automação, por conta disso, participo da equipe de robótica da UFRJ (MinervaBots) e executo pequenos projetos pessoais com sistemas embarcados.</p>
+                    <p class="personal-info__resume">Programador e biólogo. Atualmente, cursando doutorado em Biologia na UFRJ em conjunto com o bacharel em Tecnologia da Informação na UNIVESP. Recentemente, descobri minha paixão por programação, automação e robótica. Estudo profundamente e tenho experiência com desenvolvimento web fullstack (Front-End e Back-End), incluindo desenvolvimento mobile. Também tenho grande interesse em Data Science, Machine Learning e Deep Learning, áreas que tento aliar aos projetos web que executo. Por último, gosto muito de robótica e automação, por conta disso, participo da equipe de robótica da UFRJ (MinervaBots) e executo pequenos projetos pessoais com sistemas embarcados.</p>
                 </div>
             </section>
             <section class="my-abilities__container">
                 <h2 class="my-abilities__title" id="my-abilities-section">Minhas Habilidades Técnicas</h2>
                 <div class="my-abilities__cards">
-                    <div class="my-abilities-card__container">
-                        <h3 class="my-abilities-card__title my-abilities-card__title--frontend">Front-End</h3>
-                        <p class="my-abilities-card__text">Criação de interfaces de usuários para sistemas web, utilizando HTMl, CSS e JavaScript. Utilizo também bibliotecas e frameworks como React, NextJS e SASS para auxiliar no desenvolvimento de interfaces.</p>
-                        <div class="my-abilities-card__list-container">
-                            <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
-                            <ul class="my-abilities-card__list">
+                    <div class="ability-card__container">
+                        <h3 class="ability-card__title">Front-End</h3>
+                        <p class="ability-card__text">Criação de interfaces de usuários para sistemas web, utilizando HTMl, CSS e JavaScript. Utilizo também bibliotecas e frameworks como React, NextJS e SASS para auxiliar no desenvolvimento de interfaces.</p>
+                        <div class="ability-card__list-container">
+                            <p class="ability-card__title-list">Tecnologias utilizadas:</p>
+                            <ul class="ability-card__list">
                                 <li>HTML, CSS e JavaScript (Web básico)</li>
                                 <li>React e NextJS (Web)</li>
                                 <li>React Native (Mobile)</li>
@@ -108,19 +110,19 @@
                                 <div class="progress-bar__level progress-bar__level--active"></div>
                                 <div class="progress-bar__level progress-bar__level--active"></div>
                                 <div class="progress-bar__level progress-bar__level--active"></div>
-                                <div class="progress-bar__level progress-bar__level--active"></div>
+                                <div class="progress-bar__level"></div>
                                 <div class="progress-bar__level"></div>
                                 <div class="progress-bar__level"></div>
                             </div>
-                            <p class="progress-bar__label">Intermediário-Avançado</p>
+                            <p class="progress-bar__label">Intermediário</p>
                         </div>
                     </div>
-                    <div class="my-abilities-card__container">
-                        <h3 class="my-abilities-card__title my-abilities-card__title--backend">Back-End</h3>
-                        <p class="my-abilities-card__text">Desenvolvimento de API REST para integração entre o banco de dados e o front-end. Utilizo as linguagens JavaScript e/ou Python. Também utilizo ORMs para facilitar a comunicação com banco de dados.</p>
-                        <div class="my-abilities-card__list-container">
-                            <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
-                            <ul class="my-abilities-card__list">
+                    <div class="ability-card__container">
+                        <h3 class="ability-card__title">Back-End</h3>
+                        <p class="ability-card__text">Desenvolvimento de API REST para integração entre o banco de dados e o front-end. Utilizo as linguagens JavaScript e/ou Python. Também utilizo ORMs para facilitar a comunicação com banco de dados.</p>
+                        <div class="ability-card__list-container">
+                            <p class="ability-card__title-list">Tecnologias utilizadas:</p>
+                            <ul class="ability-card__list">
                                 <li>NodeJS e Python</li>
                                 <li>Express e Sequelize (JS)</li>
                                 <li>Flask e Django (Python)</li>
@@ -139,12 +141,12 @@
                             <p class="progress-bar__label">Intermediário</p>
                         </div>
                     </div>
-                    <div class="my-abilities-card__container">
-                        <h3 class="my-abilities-card__title my-abilities-card__title--data-science">Data Science</h3>
-                        <p class="my-abilities-card__text">Análises exploratórias de dados (EDA). Treinamento e aplicação de modelos de Machine Learning para predições estatísticas. Aplicação de redes neurais para predições estatísticas e reconhecimento de imagens.</p>
-                        <div class="my-abilities-card__list-container">
-                            <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
-                            <ul class="my-abilities-card__list">
+                    <div class="ability-card__container">
+                        <h3 class="ability-card__title">Data Science</h3>
+                        <p class="ability-card__text">Análises exploratórias de dados (EDA). Treinamento e aplicação de modelos de Machine Learning para predições estatísticas. Aplicação de redes neurais para predições estatísticas e reconhecimento de imagens.</p>
+                        <div class="ability-card__list-container">
+                            <p class="ability-card__title-list">Tecnologias utilizadas:</p>
+                            <ul class="ability-card__list">
                                 <li>Excel, Google Sheet e Jupyter (EDA)</li>
                                 <li>Pandas, MatplotLib e Seaborn (EDA)</li>
                                 <li>SciKitLearn (Machine Learning)</li>
@@ -163,12 +165,12 @@
                             <p class="progress-bar__label">Iniciante-Intermediário</p>
                         </div>
                     </div>
-                    <div class="my-abilities-card__container">
-                        <h3 class="my-abilities-card__title my-abilities-card__title--data-science">Sistemas Embarcados</h3>
-                        <p class="my-abilities-card__text">Desenvolvimento de projetos com sistemas embarcados usando microcontroladores para execução de tarefas automatizadas. Pequenos projetos de automação residencial e robótica.</p>
-                        <div class="my-abilities-card__list-container">
-                            <p class="my-abilities-card__title-list">Tecnologias utilizadas:</p>
-                            <ul class="my-abilities-card__list">
+                    <div class="ability-card__container">
+                        <h3 class="ability-card__title">Sistemas Embarcados</h3>
+                        <p class="ability-card__text">Desenvolvimento de projetos com sistemas embarcados usando microcontroladores para execução de tarefas automatizadas. Pequenos projetos de automação residencial e robótica.</p>
+                        <div class="ability-card__list-container">
+                            <p class="ability-card__title-list">Tecnologias utilizadas:</p>
+                            <ul class="ability-card__list">
                                 <li>C++ e Python</li>
                                 <li>Arduinos e ESP's (Microcontroladores)</li>
                                 <li>PlatformIO (Framework)</li>
@@ -184,7 +186,7 @@
                                 <div class="progress-bar__level"></div>
                                 <div class="progress-bar__level"></div>
                             </div>
-                            <p class="progress-bar__label">Intermediário</p>
+                            <p class="progress-bar__label">Iniciante-Intermediário</p>
                         </div>
                     </div>
                 </div>
@@ -192,87 +194,87 @@
             <section class="my-projects__container" id="my-projects-section">
                 <h2 class="my-projects__title">Meus Projetos</h2>
                 <div class="my-projects__cards">
-                    <div class="my-projects-card__container">
-                        <div class="my-projects-card__infos">
-                            <h3 class="my-projects-card__title">MolEasy</h3>
-                            <p class="my-projects-card__text">Software para converter e manejar arquivos para análises de DNA.</p>
+                    <div class="project-card__container">
+                        <div class="project-card__infos">
+                            <h3 class="project-card__title">MolEasy</h3>
+                            <p class="project-card__text">Software para converter e manejar arquivos para análises de DNA.</p>
                         </div>
-                        <div class="my-projects-card__repo-infos">
+                        <div class="project-card__repo-infos">
                             <div class="status__container">
                                 <p class="status__label">Status:</p>
                                 <p class="status__text status__text--construcao">Em construção</p>
                             </div>
                             <a
                                 href="https://github.com/defreitasabner/my_molecular_stuffs" 
-                                class="my-projects-card__link"
+                                class="project-card__link"
                                 target="_blank"
                             >Saiba mais...</a>
                         </div>
                     </div>
-                    <div class="my-projects-card__container">
-                        <div class="my-projects-card__infos">
-                            <h3 class="my-projects-card__title">My Game</h3>
-                            <p class="my-projects-card__text">Jogo simples que estou desenvolvendo para praticar programação.</p>
+                    <div class="project-card__container">
+                        <div class="project-card__infos">
+                            <h3 class="project-card__title">My Game</h3>
+                            <p class="project-card__text">Jogo simples que estou desenvolvendo para praticar programação.</p>
                         </div>
-                        <div class="my-projects-card__repo-infos">
+                        <div class="project-card__repo-infos">
                             <div class="status__container">
                                 <p class="status__label">Status:</p>
                                 <p class="status__text status__text--construcao">Em construção</p>
                             </div>
                             <a
                                 href="https://github.com/defreitasabner/my-game" 
-                                class="my-projects-card__link"
+                                class="project-card__link"
                                 target="_blank"
                             >Saiba mais...</a>
                         </div>
                     </div>
-                    <div class="my-projects-card__container">
-                        <div class="my-projects-card__infos">
-                            <h3 class="my-projects-card__title">Detector de faces</h3>
-                            <p class="my-projects-card__text">Software detector de face desenvolvido de maneira bem simples.</p>
+                    <div class="project-card__container">
+                        <div class="project-card__infos">
+                            <h3 class="project-card__title">Detector de faces</h3>
+                            <p class="project-card__text">Software detector de face desenvolvido de maneira bem simples.</p>
                         </div>
-                        <div class="my-projects-card__repo-infos">
+                        <div class="project-card__repo-infos">
                             <div class="status__container">
                                 <p class="status__label">Status:</p>
                                 <p class="status__text status__text--concluido">Concluído</p>
                             </div>
                             <a
                                 href="https://github.com/defreitasabner/simple_RT_face_detector" 
-                                class="my-projects-card__link"
+                                class="project-card__link"
                                 target="_blank"
                             >Saiba mais...</a>
                         </div>
                     </div>
-                    <div class="my-projects-card__container">
-                        <div class="my-projects-card__infos">
-                            <h3 class="my-projects-card__title">Relógios para FITD</h3>
-                            <p class="my-projects-card__text">Administrador de relógios para jogos de Forged In The Dark (RPG).</p>
+                    <div class="project-card__container">
+                        <div class="project-card__infos">
+                            <h3 class="project-card__title">Relógios para FITD</h3>
+                            <p class="project-card__text">Administrador de relógios para jogos de Forged In The Dark (RPG).</p>
                         </div>
-                        <div class="my-projects-card__repo-infos">
+                        <div class="project-card__repo-infos">
                             <div class="status__container">
                                 <p class="status__label">Status:</p>
                                 <p class="status__text status__text--construcao">Em construção</p>
                             </div>
                             <a
                                 href="https://github.com/defreitasabner/fitd_progress_clock_manager" 
-                                class="my-projects-card__link"
+                                class="projects-card__link"
                                 target="_blank"
                             >Saiba mais...</a>
                         </div>
                     </div>
-                    <div class="my-projects-card__container">
-                        <div class="my-projects-card__infos">
-                            <h3 class="my-projects-card__title">Karaokê Online</h3>
-                            <p class="my-projects-card__text">Desenvolvimento em conjunto de um app de karaokê.</p>
+                    <div class="project-card__container">
+                        <div class="project-card__infos">
+                            <h3 class="project-card__title">Karaokê Online</h3>
+                            <p class="project-card__text">Desenvolvimento em conjunto de um app de karaokê.</p>
                         </div>
-                        <div class="my-projects-card__repo-infos">
+                        <div class="project-card__repo-infos">
                             <div class="status__container">
                                 <p class="status__label">Status:</p>
                                 <p class="status__text status__text--construcao">Em construção</p>
                             </div>
                             <a
                                 href="https://github.com/artursennass/karaoque-role-de-migos" 
-                                class="my-projects-card__link"
+                                class="project-card__link"
                                 target="_blank"
                             >Saiba mais...</a>
                         </div>

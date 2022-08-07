@@ -1,0 +1,43 @@
+.ability-card__container {
+    border: 2px var(--baby-powder) solid;
+    box-shadow: 5px 5px 5px var(--almost-black);
+    padding: 1rem;
+}
+
+.ability-card__title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--titanium-yellow);
+    margin-bottom: 0.5rem;
+}
+
+.ability-card__text {
+    color: var(--baby-powder);
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.ability-card__list-container {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--baby-powder);
+}
+
+.ability-card__title-list {
+    color: var(--minion-yellow);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.ability-card__list li {
+    color: var(--baby-powder);
+    margin-left: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.ability-card__list li::before {
+    content: '\25A0';
+    color: var(--baby-powder);
+    margin-right: 0.5rem;
+}
