@@ -1,7 +1,7 @@
 .project-card__container {
     display: grid;
     grid-template-columns: 1fr;
-    border: 3px solid var(--raisin-black);
+    border: 2px solid var(--raisin-black);
     background-color: var(--baby-powder);
 }
 
@@ -70,11 +70,11 @@
 
 @media screen and (max-width: 720px) {
     .project-card__title {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .project-card__text {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .status__label {
