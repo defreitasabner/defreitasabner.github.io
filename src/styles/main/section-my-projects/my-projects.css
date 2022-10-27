@@ -19,6 +19,12 @@
 }
 
 @media screen and (max-width: 720px) {
+    .my-projects__container {
+        height: 100%;
+        width: auto;
+        padding: 1.5rem;
+    }
+
     .my-projects__cards {
         grid-template-columns: 1fr;
     }
