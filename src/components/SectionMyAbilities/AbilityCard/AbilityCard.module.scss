@@ -1,0 +1,58 @@
+.abilityCard {
+    border: 2px var(--baby-powder) solid;
+    box-shadow: 5px 5px 5px var(--almost-black);
+    padding: 1rem;
+    &__title {
+        text-align: center;
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: var(--titanium-yellow);
+        margin-bottom: 0.5rem;
+    }
+    &__description {
+        color: var(--baby-powder);
+        text-align: justify;
+        margin-bottom: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+.list {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--baby-powder);
+    &__title {
+        color: var(--minion-yellow);
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+    }
+    li {
+        color: var(--baby-powder);
+        margin-left: 0.2rem;
+        margin-bottom: 0.2rem;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    li::before {
+        content: '\25A0';
+        color: var(--baby-powder);
+        margin-right: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .ability-card__title {
+        font-size: 1.5rem;
+    }
+
+    .ability-card__text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    .ability-card__list li {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+}

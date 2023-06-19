@@ -1,0 +1,30 @@
+.progressBarContainer {
+    display: grid;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.progressBar {
+    display: flex;
+    &__disable {
+        padding: 0.8rem 2rem;
+        border: 2px solid var(--baby-powder);
+    }
+    &__enable {
+        background-color: var(--minion-yellow);
+    }
+    &__label {
+        color: var(--baby-powder);
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .progressBar {
+        &__label {
+            padding: 0.8rem 1.2rem;
+        }
+    }
+}

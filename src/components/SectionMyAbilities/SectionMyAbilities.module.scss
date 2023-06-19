@@ -1,0 +1,33 @@
+.myAbilities {
+    background-color: var(--raisin-black);
+    padding: 2rem;
+    &__title {
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: 'Press Start 2P', cursive;
+        color: var(--baby-powder);
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    &__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .myAbilities {
+        padding: 1rem;
+        &__title {
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+        }
+        &__cards {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
+    }
+}

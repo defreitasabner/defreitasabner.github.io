@@ -1,0 +1,46 @@
+[
+    {
+        "title": "Front-End",
+        "description": "Criação de interfaces de usuários para sistemas web, utilizando HTMl, CSS e JavaScript. Tenho experiência com bibliotecas e frameworks como React, NextJS e SASS.",
+        "technologies": [
+            "HTML, CSS e JavaScript (Web básico)",
+            "React e NextJS (Web)",
+            "React Native (Mobile)",
+            "SASS (Estilização)"
+        ],
+        "level": "intermediário"
+    },
+    {
+        "title": "Back-End",
+        "description": "Experiência com desenvolvimento de API REST. Principalmente com as linguagens JavaScript e Python. Também tenho alguma experiência com ORMs para comunicação fácil e segura com o banco de dados.",
+        "technologies": [
+            "NodeJS e Python",
+            "Express e Sequelize (JS)",
+            "FastAPI (Python)",
+            "MySQL"
+        ],
+        "level": "intermediário"
+    },
+    {
+        "title": "Data Science",
+        "description": "Foco em análises exploratórias de dados (EDA). Experiência básica com treinamento e aplicação de modelos de Machine Learning para predições estatísticas. Experiência superficial com redes neurais.",
+        "technologies": [
+            "Excel, Google Sheet e Jupyter (EDA)",
+            "Pandas, MatplotLib e Seaborn (EDA)",
+            "SciKitLearn (Machine Learning)",
+            "Pytorch (Deep Learning)"
+        ],
+        "level": "iniciante-intermediário"
+    },
+    {
+        "title": "Sistemas Embarcados",
+        "description": "Desenvolvimento de projetos com sistemas embarcados usando microcontroladores para execução de tarefas automatizadas. Pequenos projetos de automação residencial e robótica.",
+        "technologies": [
+            "C++ e Python",
+            "Arduinos e ESP's (Microcontroladores)",
+            "PlatformIO (Framework)",
+            "ROS (Sistema Operacional de Robôs)"
+        ],
+        "level": "iniciante-intermediário"
+    }
+]

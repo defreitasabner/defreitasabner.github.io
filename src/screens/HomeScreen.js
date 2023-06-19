@@ -1,110 +1,11 @@
 import SectionAboutMe from "../components/SectionAboutMe";
+import SectionMyAbilities from "../components/SectionMyAbilities";
 
 export default function HomeScreen() {
     return (
         <main className="main__container">
             <SectionAboutMe />
-            <section className="my-abilities__container">
-                <h2 className="my-abilities__title" id="my-abilities-section">Minhas Habilidades Técnicas</h2>
-                <div className="my-abilities__cards">
-                    <div className="ability-card__container">
-                        <h3 className="ability-card__title">Front-End</h3>
-                        <p className="ability-card__text">Criação de interfaces de usuários para sistemas web, utilizando HTMl, CSS e JavaScript. Tenho experiência com bibliotecas e frameworks como React, NextJS e SASS.</p>
-                        <div className="ability-card__list-container">
-                            <p className="ability-card__title-list">Tecnologias utilizadas:</p>
-                            <ul className="ability-card__list">
-                                <li>HTML, CSS e JavaScript (Web básico)</li>
-                                <li>React e NextJS (Web)</li>
-                                <li>React Native (Mobile)</li>
-                                <li>SASS (Estilização)</li>
-                            </ul>
-                        </div>
-                        <div className="progress-bar__container">
-                            <div className="progress-bar">
-                                <div className="progress-bar__level progress-bar__level--active"></div>
-                                <div className="progress-bar__level progress-bar__level--active"></div>
-                                <div className="progress-bar__level progress-bar__level--active"></div>
-                                <div className="progress-bar__level"></div>
-                                <div className="progress-bar__level"></div>
-                                <div className="progress-bar__level"></div>
-                            </div>
-                            <p className="progress-bar__label">Intermediário</p>
-                        </div>
-                    </div>
-                    <div className="ability-card__container">
-                        <h3 className="ability-card__title">Back-End</h3>
-                        <p className="ability-card__text">Experiência com desenvolvimento de API REST. Principalmente com as linguagens JavaScript e Python. Também tenho alguma experiência com ORMs para comunicação fácil e segura com o banco de dados.</p>
-                        <div className="ability-card__list-container">
-                            <p className="ability-card__title-list">Tecnologias utilizadas:</p>
-                            <ul className="ability-card__list">
-                                <li>NodeJS e Python</li>
-                                <li>Express e Sequelize (JS)</li>
-                                <li>FastAPI (Python)</li>
-                                <li>MySQL</li>
-                            </ul>
-                        </div>
-                        <div className="progress-bar__container">
-                            <div className="progress-bar">
-                                <div className="progress-bar__level progress-bar__level--active"></div>
-                                <div className="progress-bar__level progress-bar__level--active"></div>
-                                <div className="progress-bar__level progress-bar__level--active"></div>
-                                <div className="progress-bar__level"></div>
-                                <div className="progress-bar__level"></div>
-                                <div className="progress-bar__level"></div>
-                            </div>
-                            <p className="progress-bar__label">Intermediário</p>
-                        </div>
-                    </div>
-                    <div className="ability-card__container">
-                        <h3 className="ability-card__title">Data Science</h3>
-                        <p className="ability-card__text">Foco em análises exploratórias de dados (EDA). Experiência básica com treinamento e aplicação de modelos de Machine Learning para predições estatísticas. Experiência superficial com redes neurais.</p>
-                        <div className="ability-card__list-container">
-                            <p className="ability-card__title-list">Tecnologias utilizadas:</p>
-                            <ul className="ability-card__list">
-                                <li>Excel, Google Sheet e Jupyter (EDA)</li>
-                                <li>Pandas, MatplotLib e Seaborn (EDA)</li>
-                                <li>SciKitLearn (Machine Learning)</li>
-                                <li>Pytorch (Deep Learning)</li>
-                            </ul>
-                        </div>
-                        <div className="progress-bar__container">
-                            <div className="progress-bar">
-                                <div className="progress-bar__level progress-bar__level--active"></div>
-                                <div className="progress-bar__level progress-bar__level--active"></div>
-                                <div className="progress-bar__level"></div>
-                                <div className="progress-bar__level"></div>
-                                <div className="progress-bar__level"></div>
-                                <div className="progress-bar__level"></div>
-                            </div>
-                            <p className="progress-bar__label">Iniciante-Intermediário</p>
-                        </div>
-                    </div>
-                    <div className="ability-card__container">
-                        <h3 className="ability-card__title">Sistemas Embarcados</h3>
-                        <p className="ability-card__text">Desenvolvimento de projetos com sistemas embarcados usando microcontroladores para execução de tarefas automatizadas. Pequenos projetos de automação residencial e robótica.</p>
-                        <div className="ability-card__list-container">
-                            <p className="ability-card__title-list">Tecnologias utilizadas:</p>
-                            <ul className="ability-card__list">
-                                <li>C++ e Python</li>
-                                <li>Arduinos e ESP's (Microcontroladores)</li>
-                                <li>PlatformIO (Framework)</li>
-                                <li>ROS (Sistema Operacional de Robôs)</li>
-                            </ul>
-                        </div>
-                        <div className="progress-bar__container">
-                            <div className="progress-bar">
-                                <div className="progress-bar__level progress-bar__level--active"></div>
-                                <div className="progress-bar__level progress-bar__level--active"></div>
-                                <div className="progress-bar__level"></div>
-                                <div className="progress-bar__level"></div>
-                                <div className="progress-bar__level"></div>
-                                <div className="progress-bar__level"></div>
-                            </div>
-                            <p className="progress-bar__label">Iniciante-Intermediário</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <SectionMyAbilities />
             <section className="my-projects__container" id="my-projects-section">
                 <h2 className="my-projects__title">Meus Projetos</h2>
                 <div className="my-projects__cards">
