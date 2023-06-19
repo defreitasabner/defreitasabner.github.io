@@ -1,0 +1,27 @@
+[
+    {
+        "url": "https://github.com/defreitasabner",
+        "img": "/images/github_icon.svg",
+        "alt": "GitHub - defreitasabner"
+    },
+    {
+        "url": "https://gitlab.com/defreitasabner",
+        "img": "/images/gitlab_icon.svg",
+        "alt": "GitLab - @defreitasabner"
+    },
+    {
+        "url": "https://www.linkedin.com/in/abner-silveira-de-freitas/",
+        "img": "/images/linkedin_icon.svg",
+        "alt": "LinkedIn - Abner Silveira de Freitas"
+    },
+    {
+        "url": "https://www.kaggle.com/abnerfreitas",
+        "img": "/images/kaggle_icon.svg",
+        "alt": "Kaggle - abnerfreitas"
+    },
+    {
+        "url": "https://medium.com/@abnerdefreitas",
+        "img": "/images/medium_icon.svg",
+        "alt": "Medium - @abnerdefreitas"
+    }
+]

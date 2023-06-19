@@ -1,0 +1,55 @@
+.sectionAboutMe {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background-color: var(--baby-powder);
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__picture {
+            width: 200px;
+            border-radius: 50%;
+            box-shadow: 3px 3px 3px var(--raisin-black);
+        }
+        &__name {
+            font-size: 2rem;
+            color: var(--raisin-black);
+            padding: 0.5rem;
+        }
+        &__role {
+            color: var(--raisin-black);
+            padding: 0.5rem;
+        }
+        &__text {
+            width: 60%;
+            text-align: justify;
+            font-size: 1rem;
+            padding: 0.5rem;
+            color: var(--raisin-black);
+            line-height: 1.5rem;
+        }
+        
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .personal-info__picture {
+        width: 40vw;
+    }
+
+    .personal-info__name {
+        font-size: 1.6rem;
+    }
+
+    .personal-info__role {
+        font-size: 0.8rem;
+    }
+
+    .personal-info__resume {
+        width: 90%;
+    }
+}
+

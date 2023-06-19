@@ -1,55 +1,9 @@
+import SectionAboutMe from "../components/SectionAboutMe";
+
 export default function HomeScreen() {
     return (
         <main className="main__container">
-            <section className="about-me__container" id="about-me-section">
-                <div className="personal-info__container">
-                    <img 
-                        className="personal-info__picture"
-                        src="https://github.com/defreitasabner.png" 
-                        alt="Abner Freitas"
-                    />
-                    <h3 className="personal-info__name">Abner Freitas</h3>
-                    <span className="personal-info__role">Desenvolvedor FullStack</span>
-                    <div className="social-media__container">
-                        <a href="https://github.com/defreitasabner" target="_blank">
-                            <img 
-                                src="/images/github_icon.svg" 
-                                alt="GitHub - defreitasabner"
-                                className="social-media__icon"
-                            />
-                        </a>
-                        <a href="https://gitlab.com/defreitasabner" target="_blank">
-                            <img 
-                                src="/images/gitlab_icon.svg" 
-                                alt="GitLab - @defreitasabner"
-                                className="social-media__icon"
-                            />
-                        </a>
-                        <a href="https://www.linkedin.com/in/abner-silveira-de-freitas/" target="_blank">
-                            <img 
-                                src="/images/linkedin_icon.svg" 
-                                alt="LinkedIn - Abner Silveira de Freitas"
-                                className="social-media__icon"
-                            />
-                        </a>
-                        <a href="https://www.kaggle.com/abnerfreitas" target="_blank">
-                            <img 
-                                src="/images/kaggle_icon.svg" 
-                                alt="Kaggle - abnerfreitas"
-                                className="social-media__icon"
-                            />
-                        </a>
-                        <a href="https://medium.com/@abnerdefreitas" target="_blank">
-                            <img 
-                                src="/images/medium_icon.svg" 
-                                alt="Medium - @abnerdefreitas"
-                                className="social-media__icon"
-                            />
-                        </a>
-                    </div>
-                    <p className="personal-info__resume">Programador e biólogo. Fiz minha primeira graduação em Biologia (2013-2017) na Universidade Federal do Rio de Janeiro (UFRJ), onde também fiz mestrado na mesma área (2017-2019). Atualmente, estou em transição de carreira para área de tecnologia. Comecei a estudar programação através de cursos online (Alura) durante a pandemia de 2020, a princípio para automatizar processos repetitivos e para analisar dados, mas acabei descobrindo minha paixão pela área de tecnologia. Em Agosto de 2022, ingressei no Bacharelado em Tecnologia da Informação na Universidade Virtual do Estado de São Paulo (UNIVESP), sigo fazendo cursos online e executando pequenos projetos pessoais. Das diversas áreas da teconologia, a que mais estudo e que tenho mais experiência desenvolvendo projetos pessoais, é desenvolvimento web fullstack (Front-End e Back-End), incluindo um pouco de desenvolvimento mobile. Também tenho grande interesse em Data Science, Machine Learning e Deep Learning, e tento sempre me manter estudando o assunto e executando pequenos projetos na área. Por último, gosto muito de cultura maker e robótica, por conta disso, ingressei na equipe de robótica da UFRJ  (MinervaBots) no início de 2022, além de executar pequenos projetos pessoais com sistemas embarcados como hobbie.</p>
-                </div>
-            </section>
+            <SectionAboutMe />
             <section className="my-abilities__container">
                 <h2 className="my-abilities__title" id="my-abilities-section">Minhas Habilidades Técnicas</h2>
                 <div className="my-abilities__cards">

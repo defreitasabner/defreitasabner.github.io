@@ -1,8 +1,0 @@
-.about-me__container {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    background-color: var(--baby-powder);
-}
