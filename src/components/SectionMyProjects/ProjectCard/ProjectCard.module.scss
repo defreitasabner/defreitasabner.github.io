@@ -1,0 +1,81 @@
+.projectCard {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 2px solid var(--raisin-black);
+    background-color: var(--baby-powder);
+    .header {
+        padding: 0.5rem;
+        &__title {
+            font-size: 1rem;
+            color: var(--raisin-black);
+            font-family: 'Press Start 2P', cursive;
+            margin-bottom: 0.5rem;
+            &:before {
+                content: '>>';
+                margin-right: 0.3rem;
+            }
+        }
+        &__description {
+            color: var(--raisin-black);
+            text-align: justify;
+        }
+    }
+    .repoInfo {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--raisin-black);
+        padding: 0.5rem;
+        &__status {
+            display: flex;
+            &__label {
+                font-weight: 700;
+                margin-right: 0.5rem;
+                color: var(--baby-powder);
+            }
+            &__text {
+                color: var(--baby-powder);
+            }
+            &__text--construcao::after {
+                content: '\1F6A7';
+                margin-left: 0.3rem;
+            }
+            &__text--concluido::after {
+                content: '\2705';
+                margin-left: 0.3rem;
+            }
+        }
+        &__link {
+            color: var(--baby-powder);
+            text-decoration: none;
+            text-align: right;
+            &:hover {
+                color: var(--titanium-yellow);
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .project-card__title {
+        font-size: 0.6rem;
+    }
+
+    .project-card__text {
+        font-size: 0.8rem;
+    }
+
+    .status__label {
+        font-size: 0.8rem;
+    }
+
+    .status__text {
+        font-size: 0.8rem;
+    }
+
+    .project-card__link {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,29 @@
+.myProjects {
+    background-color: var(--baby-powder);
+    padding: 2rem;
+    background-color: var(--minion-yellow);
+    &__title {
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: 'Press Start 2P', cursive;
+        color: var(--raisin-black);
+        margin-bottom: 2rem;
+    }
+    &__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .myProjects {
+        height: 100%;
+        width: auto;
+        padding: 1.5rem;
+        &__cards {
+            grid-template-columns: 1fr;
+        }
+    }
+
+}

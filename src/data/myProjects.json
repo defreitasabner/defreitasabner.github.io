@@ -1,0 +1,26 @@
+[
+    {
+        "title": "MolEasy",
+        "description": "Software para converter e manejar arquivos para análises de DNA.",
+        "url": "https://github.com/defreitasabner/my_molecular_stuffs",
+        "status": "construção"
+    },
+    {
+        "title": "My Game",
+        "description": "Jogo simples que estou desenvolvendo para praticar programação.",
+        "url": "https://github.com/defreitasabner/my-game",
+        "status": "construção"
+    },
+    {
+        "title": "Detector de faces",
+        "description": "Software detector de face desenvolvido de maneira bem simples.",
+        "url": "https://github.com/defreitasabner/simple_RT_face_detector",
+        "status": "concluído"
+    },
+    {
+        "title": "Relógios para FITD",
+        "description": "Administrador de relógios para jogos de Forged In The Dark (RPG).",
+        "url": "https://github.com/defreitasabner/fitd_progress_clock_manager",
+        "status": "construção"
+    }
+]
