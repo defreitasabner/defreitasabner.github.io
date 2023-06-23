@@ -1,0 +1,29 @@
+.presentationCard {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    &__picture {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        width: 300px;
+        border-radius: 30%;
+    }
+    .info {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        color: var(--raisin-black);
+        font-size: 2rem;
+        &__name {
+            color: var(--baby-powder);
+            font-size: 3rem;
+            padding: 0.5rem;
+        }
+        &__role {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--titanium-yellow);
+            padding: 0.5rem;
+        }
+    }
+}
