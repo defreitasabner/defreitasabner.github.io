@@ -2,15 +2,16 @@ import styles from './SectionMyAbilities.module.scss';
 
 import myAbilitiesData from '../../data/myAbilities.json';
 import AbilityCard from './AbilityCard';
+import SectionTitle from '../SectionTitle';
 
 
-export default function SectionMyAbilities() {
+export default function MyAbilities() {
 
     const myAbilities = myAbilitiesData;
 
     return (
-        <section className={styles.myAbilities}>
-            <h2 className={styles.myAbilities__title} id="my-abilities-section">Minhas Habilidades Técnicas</h2>
+        <section className={styles.myAbilities} id="my-abilities-section">
+            <SectionTitle title="Minhas Habilidades" />
             <div className={styles.myAbilities__cards}>
                 {
                     myAbilities.map(

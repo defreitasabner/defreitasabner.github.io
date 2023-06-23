@@ -1,13 +1,13 @@
 .abilityCard {
     border: 2px var(--baby-powder) solid;
-    box-shadow: 5px 5px 5px var(--almost-black);
-    padding: 1rem;
     &__title {
+        background-color: var(--raisin-black);
+        color: var(--baby-powder);
         text-align: center;
         font-size: 1.8rem;
         font-weight: 700;
-        color: var(--titanium-yellow);
         margin-bottom: 0.5rem;
+        padding: 0.5rem;
     }
     &__description {
         color: var(--baby-powder);

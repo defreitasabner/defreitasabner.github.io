@@ -1,13 +1,13 @@
-import SectionAboutMe from "../components/SectionAboutMe";
-import SectionMyAbilities from "../components/SectionMyAbilities";
-import SectionMyProjects from "../components/SectionMyProjects";
+import AboutMe from "../components/AboutMe";
+import MyAbilities from "../components/MyAbilities";
+import MyProjects from "../components/MyProjects";
 
 export default function HomeScreen() {
     return (
         <main className="main__container">
-            <SectionAboutMe />
-            <SectionMyAbilities />
-            <SectionMyProjects />
+            <AboutMe />
+            <MyAbilities />
+            <MyProjects />
         </main>
     )
 }

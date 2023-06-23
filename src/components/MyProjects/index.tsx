@@ -2,11 +2,12 @@ import styles from './SectionMyProjects.module.scss';
 import ProjectCard from './ProjectCard';
 
 import myProjectsData from '../../data/myProjects.json';
+import SectionTitle from '../SectionTitle';
 
-export default function SectionMyProjects() {
+export default function MyProjects() {
     return (
         <section className={styles.myProjects} id="my-projects-section">
-            <h2 className={styles.myProjects__title}>Meus Projetos</h2>
+            <SectionTitle title="Meus Projetos" />
             <div className={styles.myProjects__cards}>
                 {
                     myProjectsData.map(

@@ -6,24 +6,30 @@
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
         width: 300px;
-        border-radius: 30%;
+        border-radius: 50%;
+        border: 4px solid var(--raisin-black);
     }
     .info {
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        color: var(--raisin-black);
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        color: var(--baby-powder);
         font-size: 2rem;
         &__name {
             color: var(--baby-powder);
             font-size: 3rem;
-            padding: 0.5rem;
+            font-weight: 700;
         }
         &__role {
             font-size: 3rem;
             font-weight: 700;
             color: var(--titanium-yellow);
-            padding: 0.5rem;
+        }
+        &__description {
+            font-size: 1.5rem;
+            span {
+                color: var(--titanium-yellow);
+            }
         }
     }
 }

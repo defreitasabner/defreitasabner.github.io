@@ -1,6 +1,7 @@
 .badge {
     width: 2rem;
     opacity: 50%;
+    filter: invert(100%);
     &:hover {
         opacity: 85%;
         transform: scale(1.3);

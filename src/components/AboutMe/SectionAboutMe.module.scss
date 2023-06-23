@@ -1,14 +1,8 @@
 .sectionAboutMe {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
     background-color: var(--almost-black);
-    &__container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         &__text {
             width: 60%;
             text-align: justify;
@@ -17,8 +11,6 @@
             color: var(--raisin-black);
             line-height: 1.5rem;
         }
-        
-    }
 }
 
 @media screen and (max-width: 720px) {
