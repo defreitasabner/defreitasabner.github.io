@@ -14,7 +14,7 @@ export default function SectionMyAbilities() {
             <div className={styles.myAbilities__cards}>
                 {
                     myAbilities.map(
-                        abilities => <AbilityCard {...abilities} />
+                        (abilities, index) => <AbilityCard  key={index} {...abilities} />
                     )
                 }
             </div>

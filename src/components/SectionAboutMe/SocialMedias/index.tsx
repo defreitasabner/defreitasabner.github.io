@@ -11,7 +11,7 @@ export default function SocialMedias() {
     return (
         <div className={styles.socialMedias}>
             {socialMedias.map(
-                socialMedia => <SocialMediaBadge {...socialMedia}/>
+                (socialMedia, index) => <SocialMediaBadge key={index} {...socialMedia}/>
             )}
         </div>
     )

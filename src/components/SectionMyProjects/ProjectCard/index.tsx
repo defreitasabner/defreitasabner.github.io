@@ -1,6 +1,6 @@
 import styles from './ProjectCard.module.scss';
 
-export default function ProjectCard({ title, description, url, status }) {
+export default function ProjectCard({ title, description, url, status }: IProject) {
     return (
         <div className={styles.projectCard}>
             <div className={styles.header}>

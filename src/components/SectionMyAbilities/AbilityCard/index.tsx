@@ -1,7 +1,7 @@
 import styles from './AbilityCard.module.scss';
 import ProgressBar from './ProgressBar';
 
-export default function AbilityCard({ title, description, technologies, level }) {
+export default function AbilityCard({ title, description, technologies, level }: IAbility) {
     return (
         <div className={styles.abilityCard}>
             <h3 className={styles.abilityCard__title}>{title}</h3>
