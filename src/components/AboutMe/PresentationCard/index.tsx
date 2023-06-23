@@ -1,5 +1,5 @@
 import styles from './PresentationCard.module.scss';
-import SocialMedias from '../SocialMedias';
+import SocialMedias from './SocialMedias';
 
 export default function PresentationCard() {
     return (
