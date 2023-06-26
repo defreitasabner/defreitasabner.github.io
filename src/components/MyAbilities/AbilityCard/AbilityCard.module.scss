@@ -1,19 +1,22 @@
 .abilityCard {
+    width: 80%;
     border: 2px var(--baby-powder) solid;
+    border-radius: 2rem;
     &__title {
-        background-color: var(--raisin-black);
-        color: var(--baby-powder);
+        color: var(--titanium-yellow);
         text-align: center;
         font-size: 1.8rem;
         font-weight: 700;
         margin-bottom: 0.5rem;
-        padding: 0.5rem;
+        padding: 1rem;
     }
     &__description {
+        font-size: 1.2rem;
+        line-height: 2rem;
         color: var(--baby-powder);
         text-align: justify;
+        padding: 0rem 1rem 1rem 1rem;
         margin-bottom: 1rem;
-        line-height: 1.5rem;
     }
 }
 
@@ -22,9 +25,10 @@
     margin-bottom: 1rem;
     border: 1px solid var(--baby-powder);
     &__title {
-        color: var(--minion-yellow);
+        color: var(--titanium-yellow);
         font-weight: 700;
         margin-bottom: 0.5rem;
+        text-align: center;
     }
     li {
         color: var(--baby-powder);

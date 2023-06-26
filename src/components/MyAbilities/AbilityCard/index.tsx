@@ -7,7 +7,7 @@ export default function AbilityCard({ title, description, technologies, level }:
             <h3 className={styles.abilityCard__title}>{title}</h3>
             <p className={styles.abilityCard__description}>{description}</p>
             <div className={styles.list}>
-                <p className={styles.list__title}>Tecnologias utilizadas:</p>
+                <p className={styles.list__title}>Tecnologias utilizadas</p>
                 <ul>
                     {technologies.map(
                         (technology, index) => <li key={index}>{technology}</li>

@@ -4,4 +4,13 @@
     color: var(--baby-powder);
     margin-bottom: 2rem;
     width: 100%;
+    padding: 1rem 0;
+    &:before {
+        content: '< ';
+        color: var(--titanium-yellow);
+    }
+    &:after {
+        content: ' >';
+        color: var(--titanium-yellow);
+    }
 }

@@ -9,9 +9,9 @@
     }
     &__cards {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         justify-items: center;
-        gap: 1rem;
+        gap: 2rem;
     }
 }
 
