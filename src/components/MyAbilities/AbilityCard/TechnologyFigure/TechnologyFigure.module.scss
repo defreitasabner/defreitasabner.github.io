@@ -1,0 +1,14 @@
+.technologyFigure {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    justify-items: center;
+    &__img {
+        width: 64px;
+    }
+    &__name {
+        font-size: 1rem;
+        color: var(--baby-powder);
+        font-weight: 700;
+    }
+}

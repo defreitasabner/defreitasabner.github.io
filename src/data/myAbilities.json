@@ -1,23 +1,124 @@
 [
     {
-        "title": "Front-End",
-        "description": "Criação de interfaces de usuários para sistemas web, utilizando HTMl, CSS e JavaScript. Tenho experiência com bibliotecas e frameworks como React, NextJS e SASS.",
+        "title": "Back-End",
+        "description": "Experiência com desenvolvimento de API REST. Principalmente com as linguagens Python e C#. Também tenho alguma experiência com ORMs para comunicação fácil e segura com o banco de dados.",
         "technologies": [
-            "HTML, CSS e JavaScript (Web básico)",
-            "React e NextJS (Web)",
-            "React Native (Mobile)",
-            "SASS (Estilização)"
+            {
+                "name": "Python",
+                "img": "/images/python_icon.svg",
+                "alt": "Python Icon"
+            },
+            {
+                "name": "C#",
+                "img": "/images/csharp_icon.svg",
+                "alt": "Csharp Icon"
+            },
+            {
+                "name": "Django",
+                "img": "/images/django_icon.svg",
+                "alt": "Django Icon"
+            },
+            {
+                "name": ".NET",
+                "img": "/images/dotnet_icon.png",
+                "alt": ".NET Icon"
+            },
+            {
+                "name": "PostGreSQL",
+                "img": "/images/postgresql_icon.png",
+                "alt": "PostGreSQL Icon"
+            },
+            {
+                "name": "MySQL",
+                "img": "/images/mysql_icon.svg",
+                "alt": "MySQL Icon"
+            },
+            {
+                "name": "Docker",
+                "img": "/images/docker_icon.svg",
+                "alt": "Docker Icon"
+            }
+        ],
+        "skills": [
+            "Desenvolvimento de API Rest",
+            "Planejamento e diagramação de sistemas",
+            "Modelagem de negócio",
+            "Estruturação de banco de dados",
+            "Teste automatizados",
+            "Configuração de ambientes"
         ],
         "level": "intermediário"
     },
     {
-        "title": "Back-End",
-        "description": "Experiência com desenvolvimento de API REST. Principalmente com as linguagens JavaScript e Python. Também tenho alguma experiência com ORMs para comunicação fácil e segura com o banco de dados.",
+        "title": "Front-End",
+        "description": "Criação de interfaces de usuários para sistemas Web. Tenho experiência com bibliotecas e frameworks web como React, NextJS e SaSS.",
         "technologies": [
-            "NodeJS e Python",
-            "Express e Sequelize (JS)",
-            "FastAPI (Python)",
-            "MySQL"
+            {
+                "name": "HTML5",
+                "img": "/images/html5_icon.svg",
+                "alt": "HTML5 Icon"
+            },
+            {
+                "name": "CSS3",
+                "img": "/images/css3_icon.svg",
+                "alt": "CSS3 Icon"
+            },
+            {
+                "name": "JavaScript",
+                "img": "/images/javascript_icon.svg",
+                "alt": "JavaScript Icon"
+            },
+            {
+                "name": "Typescript",
+                "img": "/images/typescript_icon.png",
+                "alt": "TypeScript Icon"
+            },
+            {
+                "name": "Next",
+                "img": "/images/next_icon.png",
+                "alt": "NextJS Icon"
+            },
+            {
+                "name": "SaSS",
+                "img": "/images/sass_icon.svg",
+                "alt": "SaSS Icon"
+            }
+        ],
+        "skills": [
+            "Desenvolvimento de páginas estáticas e/ou dinâmicas",
+            "Validação de dados e integração com Back-end"
+        ],
+        "level": "intermediário"
+    },
+    {
+        "title": "Mobile",
+        "description": "Criação de interfaces de usuários para sistemas Mobile. Tenho experiência desenvolvendo aplicativos multiplataforma com Flutter.",
+        "technologies": [
+            {
+                "name": "Flutter",
+                "img": "/images/flutter_icon.svg",
+                "alt": "Flutter Icon"
+            },
+            {
+                "name": "Dart",
+                "img": "/images/dart_icon.png",
+                "alt": "Dart Icon"
+            },
+            {
+                "name": "Android",
+                "img": "/images/android_icon.png",
+                "alt": "Android Icon"
+            },
+            {
+                "name": "iOS",
+                "img": "/images/apple_icon.svg",
+                "alt": "iOS Icon"
+            }
+        ],
+        "skills": [
+            "Desenvolvimento de aplicativos",
+            "Integração com Back-end",
+            "Multiplataforma (Android e iOS)"
         ],
         "level": "intermediário"
     },
@@ -25,10 +126,36 @@
         "title": "Data Science",
         "description": "Foco em análises exploratórias de dados (EDA). Experiência básica com treinamento e aplicação de modelos de Machine Learning para predições estatísticas. Experiência superficial com redes neurais.",
         "technologies": [
-            "Excel, Google Sheet e Jupyter (EDA)",
-            "Pandas, MatplotLib e Seaborn (EDA)",
-            "SciKitLearn (Machine Learning)",
-            "Pytorch (Deep Learning)"
+            {
+                "name": "Jupyter",
+                "img": "/images/jupyter_icon.svg",
+                "alt": "Jupyter Icon"
+            },
+            {
+                "name": "Pandas",
+                "img": "/images/pandas_icon.png",
+                "alt": "Pandas Icon"
+            },
+            {
+                "name": "MatplotLib",
+                "img": "/images/matplotlib_icon.png",
+                "alt": "MatplotLib Icon"
+            },
+            {
+                "name": "SciKitLearn",
+                "img": "/images/scikitlearn_icon.svg",
+                "alt": "SciKitLearn Icon"
+            },
+            {
+                "name": "Pytorch",
+                "img": "/images/pytorch_icon.svg",
+                "alt": "Pytorch Icon"
+            }
+        ],
+        "skills": [
+            "Análise exploratória de dados",
+            "Machine Learning aplicado",
+            "Redes Neurais Convolucionais"
         ],
         "level": "iniciante-intermediário"
     },
@@ -36,10 +163,27 @@
         "title": "Sistemas Embarcados",
         "description": "Desenvolvimento de projetos com sistemas embarcados usando microcontroladores para execução de tarefas automatizadas. Pequenos projetos de automação residencial e robótica.",
         "technologies": [
-            "C++ e Python",
-            "Arduinos e ESP's (Microcontroladores)",
-            "PlatformIO (Framework)",
-            "ROS (Sistema Operacional de Robôs)"
+            {
+                "name": "C++",
+                "img": "/images/cpp_icon.svg",
+                "alt": "C++ Icon"
+            },
+            {
+                "name": "Arduino",
+                "img": "/images/arduino_icon.svg",
+                "alt": "Arduino Icon"
+            },
+            {
+                "name": "Esp32",
+                "img": "/images/espressif_icon.svg",
+                "alt": "Espressif Icon"
+            }
+        ],
+        "skills": [
+            "Automação com microcontroladores",
+            "Programação de sensores e autuadores",
+            "Integração com Wifi e Bluetooth",
+            "Robótica"
         ],
         "level": "iniciante-intermediário"
     }
