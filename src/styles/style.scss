@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Press+Start+2P&display=swap');
+@import "variables";
 
 :root {
-    --baby-powder: #FAFDF6;
+    --baby-powder: #F5F5F5;
     --yellow-crayola: #EEEFA8;
-    --minion-yellow: #EAE151;
-    --titanium-yellow: #DDD92A;
-    --raisin-black: #2D2A32;
+    --minion-yellow: #DDD92A;
+    --titanium-yellow: #FFBA08;
+    --raisin-black: #1E1E24;
     --almost-black: #080808;
 
     font-family: 'Monda', sans-serif;
@@ -13,7 +14,7 @@
 
 body {
     width: 100%;
-    background-color: var(--almost-black);
+    background-color: $black;
 }
 
 @media screen and (max-width: 720px) {
