@@ -12,3 +12,16 @@
         font-weight: 700;
     }
 }
+
+@media screen and (max-width: 720px) {
+
+    .technologyFigure {
+        &__img {
+            width: 52px;
+            padding: 0.5rem;
+        }
+        &__name {
+            display: none;
+        }
+    }
+}

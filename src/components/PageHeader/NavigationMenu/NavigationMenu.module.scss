@@ -17,24 +17,7 @@
 }
 
 @media screen and (max-width: 720px) {
-    
-    .navigation__menu-button--mobile {
-        display: inline-block;
-        cursor: pointer;
-      }
-    
-    .navigation__container {
-        display: none;
-    }
-
-    .navigation__container--activated {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        border: none;
-    }
-
-    .navigation__items {
-        border-bottom: 1px solid var(--baby-powder);
+    .navigation {
+        align-items: center;
     }
 }

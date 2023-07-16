@@ -34,3 +34,24 @@
         }
     }
 }
+
+@media screen and (max-width: 720px) {
+    .presentationCard {
+        flex-direction: column;
+        text-align: center;
+        &__picture {
+            width: 15rem;
+        }
+        .info {
+            &__name {
+                font-size: 2.5rem;
+            }
+            &__role {
+                font-size: 2.5rem;
+            }
+            &__description {
+                line-height: 2rem;
+            }
+        }
+    }
+}
