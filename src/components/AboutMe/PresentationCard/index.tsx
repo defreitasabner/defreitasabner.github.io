@@ -1,10 +1,10 @@
 import styles from './PresentationCard.module.scss';
 import SocialMedias from './SocialMedias';
 
-export default function PresentationCard() {
+export default function PresentationCard({ socialMedias }) {
     return (
         <div className={styles.presentationCard}>
-            <SocialMedias />
+            <SocialMedias socialMedias={socialMedias}/>
             <img
                 className={styles.presentationCard__picture}
                 src="https://github.com/defreitasabner.png" 

@@ -4,9 +4,7 @@ import SocialMediaBadge from './SocialMediaBadge';
 import socialMediaData from '../../../../data/mySocialMedias.json';
 
 
-export default function SocialMedias() {
-
-    const socialMedias = socialMediaData;
+export default function SocialMedias({ socialMedias }) {
 
     return (
         <div className={styles.socialMedias}>

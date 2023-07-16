@@ -1,10 +1,10 @@
 import PresentationCard from './PresentationCard';
 import styles from './SectionAboutMe.module.scss';
 
-export default function AboutMe() {
+export default function AboutMe({ socialMedias }) {
     return (
         <section className={styles.sectionAboutMe} id="about-me-section">
-            <PresentationCard />
+            <PresentationCard socialMedias={socialMedias}/>
         </section>
     )
 }

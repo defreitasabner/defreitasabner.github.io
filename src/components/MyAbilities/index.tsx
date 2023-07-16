@@ -5,16 +5,14 @@ import AbilityCard from './AbilityCard';
 import SectionTitle from '../SectionTitle';
 
 
-export default function MyAbilities() {
-
-    const myAbilities = myAbilitiesData;
+export default function MyAbilities({ abilities }) {
 
     return (
         <section className={styles.myAbilities} id="my-abilities-section">
             <SectionTitle title="Minhas Habilidades" />
             <div className={styles.myAbilities__cards}>
                 {
-                    myAbilities.map(
+                    abilities.map(
                         (abilities, index) => <AbilityCard  key={index} {...abilities} />
                     )
                 }
