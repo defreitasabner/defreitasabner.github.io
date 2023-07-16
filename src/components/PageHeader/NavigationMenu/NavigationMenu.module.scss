@@ -8,10 +8,10 @@
         text-decoration: none;
         text-align: center;
         padding: 0.5rem;
-        border-bottom: 2px solid var(--raisin-black);
         &:hover {
-            color: var(--minion-yellow);
-            border-bottom: 2px solid var(--minion-yellow);
+            color: var(--titanium-yellow);
+            border-bottom: 2px solid var(--titanium-yellow);
+            transition: border-bottom 0.5s, color 0.5s;
         }
     }
 }

@@ -6,7 +6,7 @@
     --yellow-crayola: #EEEFA8;
     --minion-yellow: #DDD92A;
     --titanium-yellow: #FFBA08;
-    --raisin-black: #1E1E24;
+    --raisin-black: #131313;
     --almost-black: #080808;
 
     font-family: 'Monda', sans-serif;
@@ -14,7 +14,7 @@
 
 body {
     width: 100%;
-    background-color: $black;
+    background-color: var(--raisin-black);
 }
 
 @media screen and (max-width: 720px) {

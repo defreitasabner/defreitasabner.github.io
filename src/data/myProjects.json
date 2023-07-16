@@ -1,26 +1,26 @@
 [
     {
-        "title": "MolEasy",
-        "description": "Software para converter e manejar arquivos para análises de DNA.",
-        "url": "https://github.com/defreitasabner/my_molecular_stuffs",
+        "title": "My Books",
+        "description": "Aplicação de uma rede social de livros desenvolvida com .NET (C#) e NextJS (Typescript).",
+        "url": "https://github.com/defreitasabner/my-books",
         "status": "construção"
     },
     {
-        "title": "My Game",
-        "description": "Jogo simples que estou desenvolvendo para praticar programação.",
-        "url": "https://github.com/defreitasabner/my-game",
+        "title": "String Finder",
+        "description": "Pacote de Dart desenvolvido para facilitar integração com pacotes de internacionalização.",
+        "url": "https://github.com/defreitasabner/dart-string-finder",
         "status": "construção"
     },
     {
-        "title": "Detector de faces",
-        "description": "Software detector de face desenvolvido de maneira bem simples.",
-        "url": "https://github.com/defreitasabner/simple_RT_face_detector",
-        "status": "concluído"
+        "title": "Moleasy",
+        "description": "Software desenvolvido em Python para manusear arquivos com sequências de DNA.",
+        "url": "https://github.com/defreitasabner/moleasy",
+        "status": "construção"
     },
     {
-        "title": "Relógios para FITD",
-        "description": "Administrador de relógios para jogos de Forged In The Dark (RPG).",
-        "url": "https://github.com/defreitasabner/fitd_progress_clock_manager",
+        "title": "Pinocch-IO",
+        "description": "Um projeto de robô que desenvolvo por hobby enquanto pratico um pouco de robótica.",
+        "url": "https://github.com/defreitasabner/pinocch-io",
         "status": "construção"
     }
 ]

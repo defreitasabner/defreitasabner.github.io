@@ -3,34 +3,38 @@
     grid-template-columns: 1fr;
     border: 2px solid var(--raisin-black);
     background-color: var(--baby-powder);
+    box-shadow: 2px 2px 2px var(--almost-black);
     .header {
         padding: 0.5rem;
+        background-color: var(--almost-black);
         &__title {
-            font-size: 1rem;
-            color: var(--raisin-black);
-            font-family: 'Press Start 2P', cursive;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--baby-powder);
             margin-bottom: 0.5rem;
             &:before {
-                content: '>>';
+                content: '>>>';
                 margin-right: 0.3rem;
+                color: var(--titanium-yellow);
             }
         }
         &__description {
-            color: var(--raisin-black);
+            color: var(--baby-powder);
             text-align: justify;
+            line-height: 1.5rem;
         }
     }
     .repoInfo {
         display: flex;
         justify-content: space-between;
-        background-color: var(--raisin-black);
+        background-color: var(--almost-black);
         padding: 0.5rem;
         &__status {
             display: flex;
             &__label {
                 font-weight: 700;
                 margin-right: 0.5rem;
-                color: var(--baby-powder);
+                color: var(--titanium-yellow);
             }
             &__text {
                 color: var(--baby-powder);
@@ -45,11 +49,10 @@
             }
         }
         &__link {
-            color: var(--baby-powder);
+            color: var(--titanium-yellow);
             text-decoration: none;
             text-align: right;
             &:hover {
-                color: var(--titanium-yellow);
                 text-decoration: underline;
             }
         }
